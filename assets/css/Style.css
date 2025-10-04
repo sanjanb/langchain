@@ -79,6 +79,34 @@ main {
     padding-right: 10px;
 }
 
+/* Lesson specific refinements */
+.post-main h1:first-child {
+    margin-top: 8px;
+}
+.post-main {
+    line-height: 1.58;
+}
+
+/* Callout blocks */
+.callout {
+    border: 1px solid var(--secondary-border-color);
+    background: var(--secondary-bg-color);
+    padding: 14px 16px;
+    border-radius: 8px;
+    margin: 18px 0;
+    position: relative;
+}
+.callout.info { border-left:4px solid hsl(210,60%,50%);} 
+.callout.tip { border-left:4px solid hsl(140,55%,42%);} 
+.callout.warn { border-left:4px solid hsl(35,85%,55%);} 
+.callout.danger { border-left:4px solid hsl(0,65%,55%);} 
+.callout .callout-title { font-weight:600; margin-bottom:4px; }
+
+blockquote { border-left:4px solid var(--ternary-border-color); background: var(--quinary-bg-color); }
+
+/* Lesson navigation tweak */
+.lesson-nav { font-size:14px; }
+
 
 /* Phrasing Style: H1, H2, H3, H4, H5, H6, P, A, UL, LI */
 

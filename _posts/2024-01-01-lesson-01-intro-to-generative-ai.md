@@ -6,16 +6,19 @@ lesson-number: 1
 tags: [lesson, foundation, generative-ai, introduction]
 content-type: notes
 published: true
+hide_title: true
 ---
 
 <!-- Primary lesson heading intentionally duplicated in layout; keep one here for RSS & SEO -->
 
 # Lesson 1: Introduction to Generative AI
 
-> **Intro**  
-> Welcome to the exciting world of Generative AI! This lesson builds the conceptual bedrock you’ll need before touching frameworks like LangChain.
+<div class="callout info">
+	<div class="callout-title">Intro</div>
+	<p>Welcome to the exciting world of Generative AI! This lesson builds the conceptual bedrock you’ll need before touching frameworks like LangChain.</p>
+</div>
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 By the end of this lesson, you will be able to:
 
@@ -26,13 +29,13 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## 🤖 What is Generative AI?
+## What is Generative AI?
 
 **Generative AI** refers to artificial intelligence systems that **create new content** (text, images, code, audio, video) rather than just classifying, retrieving, or predicting. Traditional AI: _"Given X, predict Y."_ Generative AI: _"Given X (a prompt), produce a new artifact."_
 
 > **Key Idea:** Generative models learn probability distributions over tokens, pixels, or latent representations and then **sample** from them in a controlled way.
 
-### 🔍 Key Characteristics
+### Key Characteristics
 
 - **Creative Output**: Generates new text, images, code, music, and more
 - **Pattern Learning**: Learns from vast amounts of training data
@@ -41,7 +44,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## 🧬 Types of Generative AI Models
+## Types of Generative AI Models
 
 ### 1. Large Language Models (LLMs)
 
@@ -89,7 +92,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## 🌍 Real-World Applications
+## Real-World Applications
 
 ### Business & Enterprise
 
@@ -114,7 +117,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## ⚙️ How Generative AI Works
+## How Generative AI Works
 
 ### Training Process
 
@@ -132,9 +135,9 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## ⚖️ Capabilities vs. Limitations
+## Capabilities vs. Limitations
 
-### ✅ What Generative AI Can Do Well
+### What Generative AI Can Do Well
 
 - **Pattern Recognition**: Excellent at identifying and reproducing patterns
 - **Language Understanding**: Strong comprehension of context and nuance
@@ -142,7 +145,7 @@ By the end of this lesson, you will be able to:
 - **Rapid Iteration**: Generating multiple variations quickly
 - **Knowledge Synthesis**: Drawing from vast training knowledge
 
-### ⚠️ Current Limitations
+### Current Limitations
 
 - **Factual Accuracy**: Can generate plausible but incorrect information
 - **Real-time Knowledge**: Training data has cutoff dates
@@ -169,7 +172,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## 🚀 Future Trends & Opportunities
+## Future Trends & Opportunities
 
 ### Technical Advancements
 
@@ -187,7 +190,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## 🧠 Key Takeaways
+## Key Takeaways
 
 1. **Generative AI creates new content** rather than just analyzing existing data
 2. **Multiple model types** serve different purposes (text, image, code, multimodal)
@@ -197,17 +200,17 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## ⏭️ What's Next?
+## ⏭What's Next?
 
 In our next lesson, we'll dive into **LangChain**, the powerful framework that makes building generative AI applications much easier. You'll learn how LangChain simplifies working with language models and enables complex AI workflows.
 
-### 📚 Recommended Reading
+### Recommended Reading
 
 - [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
 - [OpenAI's GPT-4 Technical Report](https://arxiv.org/abs/2303.08774)
 - [Google's PaLM Paper](https://arxiv.org/abs/2204.02311)
 
-### 📝 Quick Quiz
+### Quick Quiz
 
 Before moving on, test your understanding:
 
