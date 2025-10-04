@@ -154,7 +154,6 @@ defaults:
       type: posts
     values:
       layout: Post
-      permalink: /posts/:title
       content-type: post
 # Exclude from processing.
 # The following items will not be processed, by default.
