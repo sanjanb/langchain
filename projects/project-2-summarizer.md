@@ -85,11 +85,11 @@ summarizer-project/
 
 By completing this project, you will:
 
-- **Master** document loading and text processing  
-- **Implement** advanced summarization techniques  
-- **Handle** large documents with chunking strategies  
-- **Create** user-friendly interfaces for AI tools  
-- **Optimize** performance for production use  
+- **Master** document loading and text processing
+- **Implement** advanced summarization techniques
+- **Handle** large documents with chunking strategies
+- **Create** user-friendly interfaces for AI tools
+- **Optimize** performance for production use
 
 ## Getting Started
 
@@ -103,6 +103,7 @@ By completing this project, you will:
 - Add collaborative annotation features
 
 ## Example Output```
+
 Document: "Machine Learning Research Paper (45 pages)"
 
 Summary (3 sentences):
@@ -114,8 +115,10 @@ particular promise for resource-constrained environments.
 Key Topics: neural networks, optimization, gradient-free methods
 Processing Time: 2.3 seconds
 Original Length: 12,450 words → Summary: 67 words
+
 ```
 
 ---
 
 **Ready to build your document summarizer? Let's get started!**
+```

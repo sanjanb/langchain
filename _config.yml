@@ -30,7 +30,7 @@ repository: sanjanb/generative-ai-langchain
 # your social media links etc
 #######################################################################
 
-heading: Generative AI: LangChain
+heading: "Generative AI: LangChain"
 subheading: # subheading won't work without a tagline,
   # tagline is mandatory if you want the
   # suheading to appear. The reason is
@@ -47,7 +47,7 @@ tagline: # subheading won't work without a tagline,
   # the subheading to support the main heading
   # which in this case is 'Knowledge Continuum'
   enabled: true
-  name: A structured curriculum for mastering Generative AI with LangChain
+  name: "A structured curriculum for mastering Generative AI with LangChain"
 copyright:
   year: 2025
   msg: Sanjan B M # This is a mandatory attribute for copyright to be displayed

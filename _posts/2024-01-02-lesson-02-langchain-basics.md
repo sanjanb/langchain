@@ -15,10 +15,10 @@ tags: [lesson, foundation, langchain, framework]
 
 By the end of this lesson, you will:
 
-- **Understand** what LangChain is and why it's essential for AI development  
-- **Install** and set up LangChain in your development environment  
-- **Recognize** the core components and architecture of LangChain  
-- **Build** your first simple LangChain application  
+- **Understand** what LangChain is and why it's essential for AI development
+- **Install** and set up LangChain in your development environment
+- **Recognize** the core components and architecture of LangChain
+- **Build** your first simple LangChain application
 
 ## What is LangChain?**LangChain** is an open-source framework designed to simplify the creation of applications using large language models (LLMs). It provides a standard interface for working with different LLMs and includes modular components for building complex AI workflows.
 

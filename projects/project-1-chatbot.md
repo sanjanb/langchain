@@ -78,10 +78,10 @@ chatbot-project/
 
 By completing this project, you will:
 
-- **Understand** LangChain basics and LLM integration  
-- **Implement** conversation memory and context management  
-- **Practice** prompt engineering fundamentals  
-- **Build** a complete AI application from scratch  
+- **Understand** LangChain basics and LLM integration
+- **Implement** conversation memory and context management
+- **Practice** prompt engineering fundamentals
+- **Build** a complete AI application from scratch
 - **Deploy** a simple web interface for your chatbot
 
 ## 🚀 Getting Started

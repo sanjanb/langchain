@@ -15,10 +15,10 @@ tags: [lesson, foundation, generative-ai, introduction]
 
 By the end of this lesson, you will:
 
-- **Understand** what Generative AI is and how it differs from traditional AI  
-- **Identify** key applications and use cases for Generative AI  
-- **Recognize** the major types of generative models  
-- **Appreciate** the potential and limitations of current technology  
+- **Understand** what Generative AI is and how it differs from traditional AI
+- **Identify** key applications and use cases for Generative AI
+- **Recognize** the major types of generative models
+- **Appreciate** the potential and limitations of current technology
 
 ## What is Generative AI?**Generative AI** refers to artificial intelligence systems that can create new content, rather than just analyzing or classifying existing data. Unlike traditional AI that focuses on prediction and classification, generative AI produces original outputs.
 
@@ -118,18 +118,18 @@ By the end of this lesson, you will:
 
 ### What Generative AI Can Do Well
 
-- **Pattern Recognition**: Excellent at identifying and reproducing patterns  
-- **Language Understanding**: Strong comprehension of context and nuance  
-- **Creative Synthesis**: Combining ideas in novel ways  
-- **Rapid Iteration**: Generating multiple variations quickly  
-- **Knowledge Synthesis**: Drawing from vast training knowledge  
+- **Pattern Recognition**: Excellent at identifying and reproducing patterns
+- **Language Understanding**: Strong comprehension of context and nuance
+- **Creative Synthesis**: Combining ideas in novel ways
+- **Rapid Iteration**: Generating multiple variations quickly
+- **Knowledge Synthesis**: Drawing from vast training knowledge
 
 ### Current Limitations
 
-- **Factual Accuracy**: Can generate plausible but incorrect information  
-- **Real-time Knowledge**: Training data has cutoff dates  
-- **Consistency**: May produce inconsistent outputs for similar inputs  
-- **Complex Reasoning**: Struggles with multi-step logical reasoning  
+- **Factual Accuracy**: Can generate plausible but incorrect information
+- **Real-time Knowledge**: Training data has cutoff dates
+- **Consistency**: May produce inconsistent outputs for similar inputs
+- **Complex Reasoning**: Struggles with multi-step logical reasoning
 - **Domain Expertise**: May lack deep specialized knowledge## The Current Landscape
 
 ### Leading Companies & Models
