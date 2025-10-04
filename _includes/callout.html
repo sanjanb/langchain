@@ -1,0 +1,16 @@
+{% comment %}
+Reusable callout include.
+Usage:
+{% include callout.html type="info" title="Intro" %}
+Content ...
+{% endinclude %}
+Optional params:
+- type: info | tip | warn | danger (defaults to info)
+- title: Short heading text
+Wrap content between include and endinclude.
+{% endcomment %}
+{% assign ctype = include.type | default: 'info' %}
+<div class="callout {{ctype}}">
+  {% if include.title %}<div class="callout-title">{{ include.title }}</div>{% endif %}
+  {{ include.content | markdownify }}
+</div>

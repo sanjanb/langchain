@@ -6,25 +6,29 @@ lesson-number: 3
 tags: [lesson, foundation, langchain, components, setup]
 content-type: notes
 published: true
+hide_title: true
 ---
 
 # Lesson 3: LangChain Components & Setup
 
-This lesson turns the conceptual foundation from Lesson 2 into practical capability. You will set up LangChain, understand its core abstractions, and build your first working chains.
+<div class="callout info">
+    <div class="callout-title">From concepts to code</div>
+    <p>We now translate the architecture from Lesson 2 into working practice—installing LangChain, invoking models, composing runnables, and adding structure.</p>
+</div>
 
 ## Learning Objectives
 
-By the end of this lesson you will be able to:
-
-- Install and configure LangChain and common provider integrations
-- Explain the role of LLMs, Prompts, Chains, Agents, and Memory
-- Build a basic chain using the pipe (`|`) operator / runnable composition
-- Apply prompt templates and structured output parsing
-- Compare direct API usage vs. LangChain abstractions
+<ul class="objective-list">
+    <li><strong>Environment Readiness:</strong> Install LangChain + provider packages with clean API key handling.</li>
+    <li><strong>Primitive Literacy:</strong> Know when to choose a direct model call vs. a chain vs. an agent.</li>
+    <li><strong>Composable Pipelines:</strong> Build LCEL (`|`) pipelines that remain inspectable and testable.</li>
+    <li><strong>Structured Outputs:</strong> Leverage parsers (e.g., Pydantic) early to enforce schema guarantees.</li>
+    <li><strong>Abstraction Trade‑offs:</strong> Articulate benefits vs. overhead compared to raw provider SDKs.</li>
+</ul>
 
 ---
 
-## 1. Core Architecture at a Glance
+## 1. Core Architecture Snapshot
 
 LangChain centers around **composable primitives**:
 

@@ -172,4 +172,21 @@ In the next lesson we shift from concepts to implementation: environment setup, 
 
 ---
 
+## Quick Reinforcement Quiz
+
+<ul class="objective-list">
+	<li><strong>1.</strong> Which component would you modify to ground a model in proprietary documents?</li>
+	<li><strong>2.</strong> What’s a good early signal you should turn a script of manual model calls into a Chain?</li>
+	<li><strong>3.</strong> Name one pitfall of naive memory usage.</li>
+	<li><strong>4.</strong> When do Agents become overkill relative to Chains?</li>
+	<li><strong>5.</strong> Which trio best describes a basic RAG flow? (a) Prompt→Model→Parser (b) Load→Split→Retrieve (c) Split→Embed→Retrieve + Inject</li>
+</ul>
+
+<div class="callout tip">
+	<div class="callout-title">Reflection Prompts</div>
+	<p>Pick one real problem you want to solve. Sketch (on paper) which of the six components you’d use and why. Circle uncertain areas—that’s where experimentation belongs.</p>
+</div>
+
+---
+
 {% include lesson-nav.html prev_url="/lessons/01-intro-to-generative-ai/" prev_text="Lesson 1 - Introduction to Generative AI" next_url="/lessons/03-langchain-components/" next_text="Lesson 3 - LangChain Components & Setup" %}

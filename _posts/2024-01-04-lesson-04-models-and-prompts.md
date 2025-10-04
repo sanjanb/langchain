@@ -3,33 +3,31 @@ layout: Post
 title: "Lesson 4: Models & Prompt Foundations"
 permalink: /lessons/04-models-and-prompts/
 lesson-number: 4
-tags: [lesson, models, prompts, llm]
+tags: [lesson, foundation, models, prompts, langchain]
 content-type: notes
 published: true
----out: Post
-title: "Lesson 4: Models & Prompt Foundations"
-permalink: /lessons/04-models-and-prompts/
-lesson-number: 4
-tags: [lesson, foundation, models, prompts, langchain]
-published: true
+hide_title: true
 ---
 
 # Lesson 4: Models & Prompt Foundations
 
-This lesson bridges conceptual understanding and hands-on execution for **LLM model usage** and **prompt engineering fundamentals** in LangChain v0.3. You’ll learn how to select, invoke, and configure models—and how to design robust, reusable prompts that improve output quality.
+<div class="callout info">
+    <div class="callout-title">Why this matters</div>
+    <p>Model selection + prompt design determine 70% of early application quality. Here we turn vague prompting into deliberate, testable interfaces.</p>
+</div>
 
 ---
 
 ## Learning Objectives
 
-By the end you will be able to:
-
-- Distinguish chat vs. completion vs. embedding models in LangChain
-- Swap providers with minimal code changes
-- Apply temperature, top-p, max token, and streaming settings intentionally
-- Design reusable prompt templates (role, task, constraints, format)
-- Implement few-shot and structured prompts
-- Avoid common prompt anti-patterns
+<ul class="objective-list">
+    <li><strong>Model Literacy:</strong> Differentiate chat, completion, and embedding models and pick appropriately.</li>
+    <li><strong>Provider Agility:</strong> Swap vendors with minimal downstream adjustments.</li>
+    <li><strong>Controlled Generation:</strong> Tune temperature / top_p / max_tokens intentionally rather than guess.</li>
+    <li><strong>Prompt Architecture:</strong> Decompose role, task, context, constraints, and output format explicitly.</li>
+    <li><strong>Few‑Shot Discipline:</strong> Use compact exemplars that justify their token cost.</li>
+    <li><strong>Reliability:</strong> Enforce structured outputs early with schemas & parsers.</li>
+</ul>
 
 ---
 
