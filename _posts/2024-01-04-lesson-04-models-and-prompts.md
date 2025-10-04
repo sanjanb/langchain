@@ -13,9 +13,10 @@ hide_title: true
 
 {% include lesson-progress.html %}
 
-{% include callout.html type="info" title="Why this matters" %}
+{% capture why_this_matters %}
 Model selection + prompt design determine 70% of early application quality. Here we turn vague prompting into deliberate, testable interfaces.
-{% endinclude %}
+{% endcapture %}
+{% include callout.html type="info" title="Why this matters" body=why_this_matters %}
 
 {% include lesson-toc.html %}
 

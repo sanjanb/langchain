@@ -15,9 +15,10 @@ hide_title: true
 
 {% include lesson-progress.html %}
 
-{% include callout.html type="info" title="Why this lesson matters" %}
+{% capture why_lesson_matters %}
 Before we start wiring code in LangChain, we need a mental map of the six primitives the framework is built around. Mastering these lets you assemble 80–90% of production use‑cases without guesswork.
-{% endinclude %}
+{% endcapture %}
+{% include callout.html type="info" title="Why this lesson matters" body=why_lesson_matters %}
 
 {% include lesson-toc.html %}
 
@@ -186,9 +187,10 @@ In the next lesson we shift from concepts to implementation: environment setup, 
 </ul>
 
 {% comment %} Reflection callout converted to include for consistency {% endcomment %}
-{% include callout.html type="tip" title="Reflection Prompts" %}
+{% capture reflection_prompts %}
 Pick one real problem you want to solve. Sketch (on paper) which of the six components you’d use and why. Circle uncertain areas—that’s where experimentation belongs.
-{% endinclude %}
+{% endcapture %}
+{% include callout.html type="tip" title="Reflection Prompts" body=reflection_prompts %}
 
 ---
 

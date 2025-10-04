@@ -13,9 +13,10 @@ hide_title: true
 
 {% include lesson-progress.html %}
 
-{% include callout.html type="info" title="From concepts to code" %}
+{% capture from_concepts_to_code %}
 We now translate the architecture from Lesson 2 into working practice—installing LangChain, invoking models, composing runnables, and adding structure.
-{% endinclude %}
+{% endcapture %}
+{% include callout.html type="info" title="From concepts to code" body=from_concepts_to_code %}
 
 {% include lesson-toc.html %}
 

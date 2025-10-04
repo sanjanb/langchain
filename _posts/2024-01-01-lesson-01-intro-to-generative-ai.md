@@ -15,9 +15,10 @@ hide_title: true
 
 {% include lesson-progress.html %}
 
-{% include callout.html type="info" title="Intro" %}
+{% capture intro_callout %}
 Welcome to the exciting world of Generative AI! This lesson builds the conceptual bedrock you’ll need before touching frameworks like LangChain.
-{% endinclude %}
+{% endcapture %}
+{% include callout.html type="info" title="Intro" body=intro_callout %}
 
 {% include lesson-toc.html %}
 
