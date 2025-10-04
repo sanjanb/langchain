@@ -1,9 +1,6 @@
-{% comment %}
-Display lesson progress: "Lesson X of Y" with optional next/prev inline.
-Usage: {% include lesson-progress.html %}
-Relies on page.lesson-number and counts lessons by tag 'lesson'.
-{% endcomment %}
-{% assign lessons = site.posts | where_exp:'p','p.tags contains "lesson"' %}
-{% assign total = lessons | size %}
-{% assign num = page.lesson-number | default: '?' %}
+{% comment %} Display lesson progress: "Lesson X of Y" with optional next/prev
+inline. Usage: {% include lesson-progress.html %} Relies on page.lesson-number
+and counts lessons by tag 'lesson'. {% endcomment %} {% assign lessons =
+site.posts | where_exp:'p','p.tags contains "lesson"' %} {% assign total =
+lessons | size %} {% assign num = page.lesson-number | default: '?' %}
 <div class="lesson-progress">Lesson {{ num }} of {{ total }}</div>

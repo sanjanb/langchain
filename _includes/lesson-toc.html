@@ -1,23 +1,23 @@
-{% comment %}
-Generates a mini table of contents from h2/h3 headings in page.content.
-Usage: {% include lesson-toc.html %}
-Assumes headings are rendered after Markdown conversion in page.content.
-{% endcomment %}
-{% assign raw = page.content %}
-{% assign lines = raw | split: '\n' %}
+{% comment %} Generates a mini table of contents from h2/h3 headings in
+page.content. Usage: {% include lesson-toc.html %} Assumes headings are rendered
+after Markdown conversion in page.content. {% endcomment %} {% assign raw =
+page.content %} {% assign lines = raw | split: '\n' %}
 <div class="callout tip lesson-toc">
   <div class="callout-title">On this page</div>
   <ul class="lesson-toc-list">
-  {% for l in lines %}
-    {% if l contains '## ' and l contains '### ' == false %}
-      {% assign txt = l | remove: '## ' | strip %}
-      {% assign id = txt | downcase | replace: ' ','-' | replace: '`','' | replace: ':','' | replace: ',','' %}
-      <li class="lvl2"><a href="#{% if id %}{{ id }}{% endif %}">{{ txt }}</a></li>
-    {% elsif l contains '### ' %}
-      {% assign txt = l | remove: '### ' | strip %}
-      {% assign id = txt | downcase | replace: ' ','-' | replace: '`','' | replace: ':','' | replace: ',','' %}
-      <li class="lvl3"><a href="#{% if id %}{{ id }}{% endif %}">{{ txt }}</a></li>
-    {% endif %}
-  {% endfor %}
+    {% for l in lines %} {% if l contains '## ' and l contains '### ' == false
+    %} {% assign txt = l | remove: '## ' | strip %} {% assign id = txt |
+    downcase | replace: ' ','-' | replace: '`','' | replace: ':','' | replace:
+    ',','' %}
+    <li class="lvl2">
+      <a href="#{% if id %}{{ id }}{% endif %}">{{ txt }}</a>
+    </li>
+    {% elsif l contains '### ' %} {% assign txt = l | remove: '### ' | strip %}
+    {% assign id = txt | downcase | replace: ' ','-' | replace: '`','' |
+    replace: ':','' | replace: ',','' %}
+    <li class="lvl3">
+      <a href="#{% if id %}{{ id }}{% endif %}">{{ txt }}</a>
+    </li>
+    {% endif %} {% endfor %}
   </ul>
 </div>

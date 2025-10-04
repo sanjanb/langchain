@@ -148,15 +148,36 @@ ul.feature-list.warn li {
 }
 
 /* Table of contents */
-.lesson-toc { margin-top: 10px; }
-.lesson-toc-list { list-style: none; padding-left: 0; margin: 8px 0 4px 0; }
-.lesson-toc-list li { margin-bottom: 4px; }
-.lesson-toc-list li.lvl3 { margin-left: 14px; font-size: 90%; }
-.lesson-toc-list a { text-decoration: none; color: var(--anchor-text-color); }
-.lesson-toc-list a:hover { text-decoration: underline; }
+.lesson-toc {
+  margin-top: 10px;
+}
+.lesson-toc-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 8px 0 4px 0;
+}
+.lesson-toc-list li {
+  margin-bottom: 4px;
+}
+.lesson-toc-list li.lvl3 {
+  margin-left: 14px;
+  font-size: 90%;
+}
+.lesson-toc-list a {
+  text-decoration: none;
+  color: var(--anchor-text-color);
+}
+.lesson-toc-list a:hover {
+  text-decoration: underline;
+}
 
 /* Lesson progress */
-.lesson-progress { margin-top:6px; font-size:13px; color: var(--secondary-text-color); letter-spacing:.5px; }
+.lesson-progress {
+  margin-top: 6px;
+  font-size: 13px;
+  color: var(--secondary-text-color);
+  letter-spacing: 0.5px;
+}
 
 /* Phrasing Style: H1, H2, H3, H4, H5, H6, P, A, UL, LI */
 
