@@ -135,5 +135,4 @@ In the next lesson, we will dive deeper into practical implementation: setting u
 
 ---
 
-[**← Previous: Lesson 1 - Introduction to Generative AI**]({{ "/lessons/01-intro-to-generative-ai/" | relative_url }})  
-[**Next: Lesson 3 - LangChain Components & Setup →**]({{ "/lessons/03-langchain-components/" | relative_url }})
+{% include lesson-nav.html prev_url="/lessons/01-intro-to-generative-ai/" prev_text="Lesson 1 - Introduction to Generative AI" next_url="/lessons/03-langchain-components/" next_text="Lesson 3 - LangChain Components & Setup" %}

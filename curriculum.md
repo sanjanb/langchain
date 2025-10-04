@@ -66,18 +66,18 @@ The playlist is designed around **three main parts**, covering **LangChain v0.3*
 
 ### Part 1: Fundamentals of LangChain
 
-This is the **foundation** — around **7–8 lessons** — on which everything else is built.
+This is the **foundation**—the conceptual and practical base on which everything else is built.
 
-| Lesson                 | Focus Area                                                           |
-| ---------------------- | -------------------------------------------------------------------- |
-| 1. LangChain Overview  | Why use LangChain, architecture, and where it fits in the ecosystem. |
-| 2. Components          | Overview of all major LangChain components.                          |
-| 3. Models              | How to integrate with different LLMs and get responses.              |
-| 4. Prompts             | Prompt templates, prompt types, and techniques.                      |
-| 5. Output Parsing      | Techniques for structuring and parsing LLM outputs.                  |
-| 6. Runnables & LCEL/CL | Core execution model of LangChain.                                   |
-| 7. Chains              | Deep dive into building multi-step workflows.                        |
-| 8. Memory              | Adding conversational memory for chatbots and assistants.            |
+| Lesson | Title / Focus Area | Core Outcome |
+| ------ | ------------------ | ------------ |
+| 1 | Introduction to Generative AI | Understand what generative AI is and why it matters. |
+| 2 | The Six Core Components of LangChain | Conceptual model of Models, Prompts, Chains, Indexes, Memory, Agents. |
+| 3 | LangChain Components & Setup | Environment, primitives, runnable composition basics. |
+| 4 | Models & Prompt Foundations | Model interfaces, selection, and prompt engineering principles. |
+| 5 | Output Parsing | Methods to structure LLM output (parsers, schema, validation). |
+| 6 | Runnables & LCEL | Execution model, composition with `|`, streaming & async patterns. |
+| 7 | Chains | Designing multi-step deterministic workflows. |
+| 8 | Memory | Conversation state management and persistence strategies. |
 
 ---
 
@@ -85,14 +85,14 @@ This is the **foundation** — around **7–8 lessons** — on which everything 
 
 Once fundamentals are clear, the focus shifts to **RAG applications**.
 
-| Lesson               | Focus Area                                      |
-| -------------------- | ----------------------------------------------- |
-| 9. Document Loaders  | How to bring external knowledge into LangChain. |
-| 10. Text Splitters   | Chunking strategies for LLM efficiency.         |
-| 11. Embeddings       | Representing text as vectors for retrieval.     |
-| 12. Vector Databases | Using stores like Pinecone, FAISS, Chroma.      |
-| 13. Retrievers       | Building flexible retrieval pipelines.          |
-| 14. Build a RAG App  | End-to-end RAG application project.             |
+| Lesson | Focus Area | Core Outcome |
+| ------ | ---------- | ------------ |
+| 9 | Document Loaders | Ingest diverse external data into pipelines. |
+| 10 | Text Splitters | Apply chunking strategies for balanced recall & cost. |
+| 11 | Embeddings | Represent text semantically for retrieval. |
+| 12 | Vector Databases | Store & query embeddings efficiently. |
+| 13 | Retrievers | Compose retrieval logic (filters, hybrids, re-ranking). |
+| 14 | Build a RAG App | End-to-end grounded question answering system. |
 
 ---
 
@@ -100,11 +100,11 @@ Once fundamentals are clear, the focus shifts to **RAG applications**.
 
 The final stage focuses on **autonomous AI agents**.
 
-| Lesson                | Focus Area                                                |
-| --------------------- | --------------------------------------------------------- |
-| 15. Tools & Toolkits  | Using APIs and utilities within LangChain.                |
-| 16. Tool Calling      | Concepts of structured tool execution.                    |
-| 17. Build an AI Agent | Final project: Create an AI agent combining all concepts. |
+| Lesson | Focus Area | Core Outcome |
+| ------ | ---------- | ------------ |
+| 15 | Tools & Toolkits | Define and expose external capabilities safely. |
+| 16 | Tool Calling | Structured invocation & decision orchestration. |
+| 17 | Build an AI Agent | Assemble a multi-tool reasoning assistant. |
 
 ---
 
@@ -112,16 +112,16 @@ The final stage focuses on **autonomous AI agents**.
 
 ### Focus Areas
 
-1. **Latest Version:** Entirely based on **LangChain v0.3** (not outdated v0.1 or v0.2).
-2. **Conceptual Clarity:** Explain both _how_ and _why_, including behind-the-scenes details.
-3. **Future-Proof Learning:** Emphasize core concepts like _Runnables_ and _Chains_ so learners can adapt to future updates.
-4. **Practical Coverage:** Balance theory + hands-on demos.
+1. **Latest Version:** Entirely based on **LangChain v0.3**.
+2. **Conceptual Clarity:** Explain both _how_ and _why_ with mental models.
+3. **Future-Proof Learning:** Emphasize core abstractions (Runnables, Chains) for adaptability.
+4. **Practical Coverage:** Balance theory + incremental hands-on builds.
 
 ### Timeline
 
-- **Release Frequency:** Approximately 2 lessons per week.
+- **Release Frequency:** ~2 lessons per week.
 - **Duration:** 17 comprehensive lessons.
-- **Completion:** Around **8 weeks (2 months)** for the full series.
+- **Completion:** ≈ 8 weeks.
 
 ---
 
@@ -131,14 +131,14 @@ Alongside the curriculum, you'll build **4 mini-projects** and **1 capstone proj
 
 ### Mini-Projects
 
-1. **Simple Q&A Chatbot** (After lessons 1-6)
-2. **Document Summarization Tool** (After lessons 7-9)
-3. **RAG-powered Knowledge Base** (After lessons 10-14)
-4. **Multi-tool AI Assistant** (After lessons 15-16)
+1. **Simple Q&A Chatbot** (After lessons 1–6)
+2. **Document Summarization Tool** (After lessons 7–9)
+3. **RAG-powered Knowledge Base** (After lessons 10–14)
+4. **Multi-tool AI Assistant** (After lessons 15–16)
 
 ### Capstone Project
 
-**Enterprise RAG System** - A production-ready, multi-tenant RAG application demonstrating all learned concepts.
+**Enterprise RAG System** – A production-ready, multi-tenant RAG application demonstrating all learned concepts.
 
 ---
 
@@ -153,7 +153,7 @@ After completing the LangChain curriculum, learners will be equipped to dive dee
 
 ---
 
-This curriculum is designed to balance **breadth + depth** — ensuring learners can not only build with LangChain today but also **adapt to future changes** in the rapidly evolving GenAI ecosystem.
+This curriculum is designed to balance **breadth + depth**—ensuring learners can not only build with LangChain today but also **adapt to future changes** in the rapidly evolving GenAI ecosystem.
 
 ## Getting Started
 
@@ -168,205 +168,3 @@ Ready to begin your journey? Start with [**Lesson 1: Introduction to Generative 
 - [View All Lessons]({{ "/posts/" | relative_url }})
 - [Explore Projects]({{ "/projects/" | relative_url }})
 - [Get Started with Lesson 1]({{ "/lessons/01-intro-to-generative-ai/" | relative_url }})
-
-### **Advanced Applications Phase** (Lessons 14-19)
-
-Explore advanced topics, production deployment, and cutting-edge techniques.
-
----
-
-## Complete Curriculum
-
-### **Foundation Phase**
-
-#### [[Lesson 1: Introduction to Generative AI]]
-
-- What is Generative AI?
-- Types of Generative Models
-- Real-world Applications
-- Industry Impact and Future Trends
-
-#### [[Lesson 2: Understanding Large Language Models]]
-
-- How LLMs Work
-- Transformer Architecture Basics
-- Popular LLM Models (GPT, Claude, Llama)
-- Capabilities and Limitations
-
-#### [[Lesson 3: Introduction to LangChain]]
-
-- What is LangChain?
-- Core Philosophy and Design Principles
-- Installation and Setup
-- Your First LangChain Application
-
-#### [[Lesson 4: LangChain Architecture Overview]]
-
-- Components and Modules
-- Data Flow in LangChain
-- Key Abstractions
-- Development Patterns
-
-#### [[Lesson 5: Working with Language Models]]
-
-- LLM Integration in LangChain
-- Model Selection and Configuration
-- Prompt Engineering Basics
-- Handling API Keys and Authentication
-
-#### [[Lesson 6: Prompt Engineering Fundamentals]]
-
-- Prompt Design Principles
-- Few-shot Learning
-- Chain-of-Thought Prompting
-- Prompt Templates in LangChain
-
----
-
-### **Core Skills Phase**
-
-#### [[Lesson 7: Chains - Basic Building Blocks]]
-
-- Understanding Chains
-- LLMChain and Sequential Chains
-- Router Chains
-- Custom Chain Development
-
-#### [[Lesson 8: Memory and Conversation Management]]
-
-- Types of Memory in LangChain
-- Conversation Buffer Memory
-- Conversation Summary Memory
-- Persistent Memory Solutions
-
-#### [[Lesson 9: Document Processing and Text Splitters]]
-
-- Loading Documents
-- Text Splitting Strategies
-- Handling Different File Formats
-- Preprocessing Best Practices
-
-#### [[Lesson 10: Embeddings and Vector Stores]]
-
-- Understanding Embeddings
-- Creating and Using Embeddings
-- Vector Database Integration
-- Similarity Search Techniques
-
-#### [[Lesson 11: Retrieval-Augmented Generation (RAG)]]
-
-- RAG Architecture and Benefits
-- Building Basic RAG Systems
-- Advanced Retrieval Strategies
-- Evaluation and Optimization
-
-#### [[Lesson 12: Agents and Tool Integration]]
-
-- Understanding AI Agents
-- Tool Definition and Integration
-- Agent Types and Strategies
-- Custom Tool Development
-
-#### [[Lesson 13: Output Parsers and Data Formatting]]
-
-- Structured Output Generation
-- Pydantic Integration
-- Custom Output Parsers
-- Error Handling and Validation
-
----
-
-### **Advanced Applications Phase**
-
-#### [[Lesson 14: Advanced RAG Techniques]]
-
-- Multi-modal RAG
-- Hybrid Search Strategies
-- RAG with Knowledge Graphs
-- Performance Optimization
-
-#### [[Lesson 15: Multi-Agent Systems]]
-
-- Agent Collaboration Patterns
-- Hierarchical Agent Architectures
-- Communication Protocols
-- Conflict Resolution
-
-#### [[Lesson 16: LangChain Expression Language (LCEL)]]
-
-- LCEL Syntax and Benefits
-- Building Complex Pipelines
-- Parallel Processing
-- Streaming and Async Operations
-
-#### [[Lesson 17: Production Deployment]]
-
-- Deployment Strategies
-- Monitoring and Logging
-- Performance Optimization
-- Security Considerations
-
-#### [[Lesson 18: Evaluation and Testing]]
-
-- LLM Application Testing
-- Evaluation Metrics
-- A/B Testing Strategies
-- Quality Assurance Workflows
-
-#### [[Lesson 19: Advanced Topics and Future Trends]]
-
-- Fine-tuning with LangChain
-- Multi-modal Applications
-- Edge Deployment
-- Emerging Patterns and Best Practices
-
----
-
-## Hands-on Projects
-
-### **Mini Projects** (Build alongside lessons)
-
-- **Project 1**: Simple Q&A Chatbot
-- **Project 2**: Document Summarization Tool
-- **Project 3**: RAG-powered Knowledge Base
-- **Project 4**: Multi-tool AI Assistant
-
-### **Capstone Project**
-
-- **Enterprise RAG System**: Build a production-ready, multi-modal RAG system with advanced features
-
----
-
-## Learning Outcomes
-
-By completing this curriculum, you will be able to:
-
-**Understand** the fundamentals of Generative AI and LLMs  
-**Build** sophisticated AI applications using LangChain  
-**Implement** RAG systems for knowledge-intensive tasks  
-**Deploy** production-ready AI solutions  
-**Evaluate** and optimize LLM application performance  
-**Design** multi-agent systems for complex workflows
-
----
-
-## Getting Started
-
-1. **Prerequisites**: Basic Python programming knowledge
-2. **Setup**: Follow [[Lesson 3]] for environment setup
-3. **Practice**: Complete exercises in each lesson
-4. **Build**: Work on mini-projects to reinforce learning
-5. **Apply**: Implement the capstone project
-
----
-
-## 🤝 Contributing
-
-This is an open-source curriculum! Help us improve by:
-
-- Reporting issues or suggesting improvements
-- Contributing additional examples or exercises
-- Sharing your project implementations
-- Creating supplementary content
-
-**Happy Learning! **

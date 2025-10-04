@@ -1,0 +1,54 @@
+{%- comment -%} Reusable lesson navigation include. Parameters: prev_url:
+optional URL path (without baseurl) to previous lesson prev_text: anchor text
+for previous link next_url: optional URL path (without baseurl) to next lesson
+next_text: anchor text for next link Usage: {% include lesson-nav.html
+prev_url="/lessons/01-intro-to-generative-ai/" prev_text="Lesson 1"
+next_url="/lessons/03-langchain-components/" next_text="Lesson 3" %} {%-
+endcomment -%}
+<div class="lesson-nav">
+  <div class="lesson-nav-inner">
+    {%- if include.prev_url -%}
+    <span class="lesson-nav-prev">
+      <a href="{{ include.prev_url | relative_url }}"
+        >← {{ include.prev_text }}</a
+      >
+    </span>
+    {%- endif -%} {%- if include.next_url -%}
+    <span class="lesson-nav-next">
+      <a href="{{ include.next_url | relative_url }}"
+        >{{ include.next_text }} →</a
+      >
+    </span>
+    {%- endif -%}
+  </div>
+</div>
+<style>
+  .lesson-nav {
+    margin-top: 40px;
+    border-top: 1px solid var(--primary-border-color);
+    padding-top: 18px;
+  }
+  .lesson-nav-inner {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  .lesson-nav-inner a {
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .lesson-nav-prev,
+  .lesson-nav-next {
+    max-width: 48%;
+  }
+  @media (max-width: 640px) {
+    .lesson-nav-inner {
+      flex-direction: column;
+      gap: 10px;
+    }
+    .lesson-nav-prev,
+    .lesson-nav-next {
+      max-width: 100%;
+    }
+  }
+</style>
