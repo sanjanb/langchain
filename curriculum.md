@@ -68,16 +68,16 @@ The playlist is designed around **three main parts**, covering **LangChain v0.3*
 
 This is the **foundation**—the conceptual and practical base on which everything else is built.
 
-| Lesson | Title / Focus Area | Core Outcome |
-| ------ | ------------------ | ------------ |
-| 1 | Introduction to Generative AI | Understand what generative AI is and why it matters. |
-| 2 | The Six Core Components of LangChain | Conceptual model of Models, Prompts, Chains, Indexes, Memory, Agents. |
-| 3 | LangChain Components & Setup | Environment, primitives, runnable composition basics. |
-| 4 | Models & Prompt Foundations | Model interfaces, selection, and prompt engineering principles. |
-| 5 | Output Parsing | Methods to structure LLM output (parsers, schema, validation). |
-| 6 | Runnables & LCEL | Execution model, composition with `|`, streaming & async patterns. |
-| 7 | Chains | Designing multi-step deterministic workflows. |
-| 8 | Memory | Conversation state management and persistence strategies. |
+| Lesson | Title / Focus Area                   | Core Outcome                                                          |
+| ------ | ------------------------------------ | --------------------------------------------------------------------- | ------------------------------ |
+| 1      | Introduction to Generative AI        | Understand what generative AI is and why it matters.                  |
+| 2      | The Six Core Components of LangChain | Conceptual model of Models, Prompts, Chains, Indexes, Memory, Agents. |
+| 3      | LangChain Components & Setup         | Environment, primitives, runnable composition basics.                 |
+| 4      | Models & Prompt Foundations          | Model interfaces, selection, and prompt engineering principles.       |
+| 5      | Output Parsing                       | Methods to structure LLM output (parsers, schema, validation).        |
+| 6      | Runnables & LCEL                     | Execution model, composition with `                                   | `, streaming & async patterns. |
+| 7      | Chains                               | Designing multi-step deterministic workflows.                         |
+| 8      | Memory                               | Conversation state management and persistence strategies.             |
 
 ---
 
@@ -85,14 +85,14 @@ This is the **foundation**—the conceptual and practical base on which everythi
 
 Once fundamentals are clear, the focus shifts to **RAG applications**.
 
-| Lesson | Focus Area | Core Outcome |
-| ------ | ---------- | ------------ |
-| 9 | Document Loaders | Ingest diverse external data into pipelines. |
-| 10 | Text Splitters | Apply chunking strategies for balanced recall & cost. |
-| 11 | Embeddings | Represent text semantically for retrieval. |
-| 12 | Vector Databases | Store & query embeddings efficiently. |
-| 13 | Retrievers | Compose retrieval logic (filters, hybrids, re-ranking). |
-| 14 | Build a RAG App | End-to-end grounded question answering system. |
+| Lesson | Focus Area       | Core Outcome                                            |
+| ------ | ---------------- | ------------------------------------------------------- |
+| 9      | Document Loaders | Ingest diverse external data into pipelines.            |
+| 10     | Text Splitters   | Apply chunking strategies for balanced recall & cost.   |
+| 11     | Embeddings       | Represent text semantically for retrieval.              |
+| 12     | Vector Databases | Store & query embeddings efficiently.                   |
+| 13     | Retrievers       | Compose retrieval logic (filters, hybrids, re-ranking). |
+| 14     | Build a RAG App  | End-to-end grounded question answering system.          |
 
 ---
 
@@ -100,11 +100,11 @@ Once fundamentals are clear, the focus shifts to **RAG applications**.
 
 The final stage focuses on **autonomous AI agents**.
 
-| Lesson | Focus Area | Core Outcome |
-| ------ | ---------- | ------------ |
-| 15 | Tools & Toolkits | Define and expose external capabilities safely. |
-| 16 | Tool Calling | Structured invocation & decision orchestration. |
-| 17 | Build an AI Agent | Assemble a multi-tool reasoning assistant. |
+| Lesson | Focus Area        | Core Outcome                                    |
+| ------ | ----------------- | ----------------------------------------------- |
+| 15     | Tools & Toolkits  | Define and expose external capabilities safely. |
+| 16     | Tool Calling      | Structured invocation & decision orchestration. |
+| 17     | Build an AI Agent | Assemble a multi-tool reasoning assistant.      |
 
 ---
 
