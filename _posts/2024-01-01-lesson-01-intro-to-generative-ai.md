@@ -196,4 +196,4 @@ Before moving on, test your understanding:
 
 **Ready to build with LangChain? Let's continue to Lesson 2!**
 
-[**Next: Lesson 2 - Introduction to LangChain →**]({{ "/lessons/02-introduction-to-langchain/" | relative_url }})
+[**Next: Lesson 2 - The Six Core Components of LangChain →**]({{ "/lessons/02-introduction-to-langchain/" | relative_url }})
