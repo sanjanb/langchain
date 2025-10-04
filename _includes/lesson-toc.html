@@ -9,20 +9,25 @@ assign lines = raw | split: '\n' %} {% assign seen = '' %}
   <ul class="lesson-toc-list">
     {% for l in lines %} {% assign trimmed = l | strip %} {% if trimmed == ''
     %}{% continue %}{% endif %} {% if trimmed contains '{%' or trimmed contains
-    '{{' %}{% continue %}{% endif %} {% if trimmed startswith '### ' %} {%
-    assign level = 3 %} {% assign txt = trimmed | remove_first: '### ' | strip
-    %} {% elsif trimmed startswith '## ' %} {% assign level = 2 %} {% assign txt
-    = trimmed | remove_first: '## ' | strip %} {% else %} {% continue %} {%
-    endif %} {% comment %} Build slug {% endcomment %} {% assign slug = txt |
-    downcase %} {% assign slug = slug | replace: ' & ', ' ' | replace: '&', ' '
-    %} {% assign slug = slug | replace: '.', '' | replace: ',', '' | replace:
-    ':', '' | replace: '`','' | replace: '"','' | replace: "'", '' | replace:
-    '(', '' | replace: ')', '' | replace: '/', '' | replace: '?','' | replace:
-    '!','' %} {% assign slug = slug | replace: '–','-' | replace: '—','-' %} {%
-    assign slug = slug | replace: '%','' %} {% assign slug = slug | replace: '
-    ', ' ' | replace: ' ', ' ' %} {% assign slug = slug | strip %} {% assign
-    slug = slug | replace: ' ', '-' %} {% if seen contains slug %}{% continue
-    %}{% endif %} {% assign seen = seen | append: '|' | append: slug %}
+    '{{' %}{% continue %}{% endif %} {% assign h3_prefix = '### ' %} {% assign
+    h2_prefix = '## ' %} {% if trimmed contains h3_prefix and trimmed.size > 4
+    %} {% assign first4 = trimmed | slice: 0, 4 %} {% if first4 == h3_prefix %}
+    {% assign level = 3 %} {% assign txt = trimmed | remove_first: '### ' |
+    strip %} {% else %} {% continue %} {% endif %} {% elsif trimmed contains
+    h2_prefix and trimmed.size > 3 %} {% assign first3 = trimmed | slice: 0, 3
+    %} {% if first3 == h2_prefix %} {% assign level = 2 %} {% assign txt =
+    trimmed | remove_first: '## ' | strip %} {% else %} {% continue %} {% endif
+    %} {% else %} {% continue %} {% endif %} {% comment %} Build slug {%
+    endcomment %} {% assign slug = txt | downcase %} {% assign slug = slug |
+    replace: ' & ', ' ' | replace: '&', ' ' %} {% assign slug = slug | replace:
+    '.', '' | replace: ',', '' | replace: ':', '' | replace: '`','' | replace:
+    '"','' | replace: "'", '' | replace: '(', '' | replace: ')', '' | replace:
+    '/', '' | replace: '?','' | replace: '!','' %} {% assign slug = slug |
+    replace: '–','-' | replace: '—','-' %} {% assign slug = slug | replace:
+    '%','' %} {% assign slug = slug | replace: ' ', ' ' | replace: ' ', ' ' %}
+    {% assign slug = slug | strip %} {% assign slug = slug | replace: ' ', '-'
+    %} {% if seen contains slug %}{% continue %}{% endif %} {% assign seen =
+    seen | append: '|' | append: slug %}
     <li class="lvl{{ level }}"><a href="#{{ slug }}">{{ txt }}</a></li>
     {% endfor %}
   </ul>
