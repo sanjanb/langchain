@@ -40,10 +40,12 @@ By the end of this lesson, you will be able to:
 
 ### Key Characteristics
 
-- **Creative Output**: Generates new text, images, code, music, and more
-- **Pattern Learning**: Learns from vast amounts of training data
-- **Context Awareness**: Understands and responds to prompts and context
-- **Versatility**: Can handle multiple types of content and tasks
+<ul class="feature-list">
+	<li><strong>Creative Synthesis</strong>: Produces novel combinations of learned latent structures rather than verbatim retrieval—useful for drafting, ideation, and exploratory framing.</li>
+	<li><strong>Generalized Pattern Absorption</strong>: Scales beyond narrow, labeled tasks by internalizing broad statistical regularities across heterogeneous corpora.</li>
+	<li><strong>Prompt‑Conditioned Adaptability</strong>: Behavior can be steered at inference time via instructions, exemplars, system roles, and iterative refinement loops.</li>
+	<li><strong>Multi‑Format Expression</strong>: Depending on architecture, can work across text, code, images, embeddings, or hybrid multimodal reasoning paths.</li>
+</ul>
 
 ---
 
