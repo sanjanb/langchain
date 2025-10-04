@@ -122,6 +122,31 @@ blockquote {
   font-size: 14px;
 }
 
+/* Enhanced lesson lists */
+ul.objective-list,
+ul.feature-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 12px 0 4px 0;
+}
+ul.objective-list li,
+ul.feature-list li {
+  background: var(--secondary-bg-color);
+  border: 1px solid var(--secondary-border-color);
+  padding: 10px 14px 10px 14px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  line-height: 1.45;
+  position: relative;
+}
+ul.objective-list li strong,
+ul.feature-list li strong {
+  color: var(--primary-text-color);
+}
+ul.feature-list.warn li {
+  border-left: 4px solid hsl(35, 85%, 55%);
+}
+
 /* Phrasing Style: H1, H2, H3, H4, H5, H6, P, A, UL, LI */
 
 h1 {

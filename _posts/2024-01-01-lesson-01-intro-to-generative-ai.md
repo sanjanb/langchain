@@ -101,24 +101,24 @@ By the end of this lesson, you will be able to:
 
 ### Business & Enterprise
 
-- **Customer Service**: AI chatbots and virtual assistants
-- **Content Creation**: Marketing copy, blog posts, social media
-- **Document Processing**: Summarization, translation, extraction
-- **Code Development**: Automated programming and testing
+<p><strong>Customer Engagement:</strong> Intelligent assistants triage intent, maintain sentiment‑aware responses, and hand off with structured summaries—reducing friction while preserving brand tone.</p>
+<p><strong>Scaled Content Operations:</strong> Product, marketing, and sales teams generate variant copy (persona, region, tone) with governance layers such as prompt templates and human review loops.</p>
+<p><strong>Document & Knowledge Flow:</strong> Long reports, contracts, or research decks are compressed into layered summaries; extraction pipelines convert unstructured text into structured entities.</p>
+<p><strong>Engineering Acceleration:</strong> Code copilots scaffold boilerplate, surface refactors, and synthesize tests—shifting developer time toward architecture and problem framing.</p>
 
 ### Creative Industries
 
-- **Writing & Journalism**: Article generation, editing assistance
-- **Design & Art**: Logo creation, concept art, prototyping
-- **Entertainment**: Script writing, game development, music composition
-- **Education**: Personalized learning, content generation
+<p><strong>Narrative & Editorial:</strong> Drafting, restructuring, and consistency checking support rapid iteration while preserving a distinctive authorial voice.</p>
+<p><strong>Visual Concepting:</strong> Diffusion and multimodal systems generate style explorations and thematic boards that accelerate early-phase ideation before human curation.</p>
+<p><strong>Interactive Media:</strong> Dynamic narrative branches, adaptive dialog, and procedural asset scaffolds enhance immersion in games and simulations.</p>
+<p><strong>Adaptive Education:</strong> Personalized explanations, leveled problem sets, and generative formative assessments tailor pacing and reinforcement.</p>
 
 ### Research & Development
 
-- **Scientific Writing**: Research paper assistance, literature reviews
-- **Data Analysis**: Automated insights and report generation
-- **Prototyping**: Rapid concept validation and iteration
-- **Knowledge Management**: Information synthesis and organization
+<p><strong>Literature Synthesis:</strong> Systems cluster related papers, surface thematic trajectories, and draft structured summaries with citation placeholders for expert validation.</p>
+<p><strong>Analytical Narratives:</strong> Exploratory data insights are translated into stakeholder‑aligned commentary; pairing LLM narration with programmatic chart generation increases comprehension.</p>
+<p><strong>Prototype Acceleration:</strong> Early UI copy, pseudo‑code, and data mocks are generated to derisk conceptual validation cycles.</p>
+<p><strong>Institutional Memory:</strong> Fragmented tribal knowledge is transformed into navigable playbooks and decision trees, improving onboarding and continuity.</p>
 
 ---
 
