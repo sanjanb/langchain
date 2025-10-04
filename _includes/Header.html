@@ -61,10 +61,10 @@
         {%- endif -%}
 
         <div class="{{header_direction}} profile-board-col">
-           <p class="main-page-heading {{main_heading_size}} {{main_heading_margin}}"><a href='/'>{{site.heading}}</a></p>
+           <p class="main-page-heading {{main_heading_size}} {{main_heading_margin}}"><a href='{{ "/" | relative_url }}'>{{site.heading}}</a></p>
            {%- if site.tagline.enabled -%}
              {%- if site.subheading.enabled -%}
-                <h4 class="main-page-subheading medium"><a href="/">{{site.subheading.name}}</a></h4>
+                <h4 class="main-page-subheading medium"><a href="{{ "/" | relative_url }}">{{site.subheading.name}}</a></h4>
              {%- endif -%}
              <p class="main-page-tagline">{{site.tagline.name}}</p>
             {%- endif -%}
@@ -72,7 +72,7 @@
         {%- if site.user.display and userboard_display == 'show' -%}
         <div class="userboard {{userboard_margin}} profile-board-col">
             <div class="username">
-                <p class="title-sans"><a href="/about/" style="text-decoration: none;">{{site.user.name}}</a></p>
+                <p class="title-sans"><a href="{{ "/about/" | relative_url }}" style="text-decoration: none;">{{site.user.name}}</a></p>
             </div>
             <div class="userdesc">
               <p class="bio title-sans">{{site.user.bio}}</p>
@@ -168,13 +168,13 @@
     </div>
     {%- if site.user.display and userboard_display == 'show' -%}
     <div class="avatar {{avatar_margin}} disable-select" title="click me to know more">
-        <a class="avatar-link" href="/about">
-            <img src="{{site.user.photo}}" class="avatar-img" alt="avatar"/>
+        <a class="avatar-link" href="{{ "/about" | relative_url }}">
+            <img src="{{ site.user.photo | relative_url }}" class="avatar-img" alt="avatar"/>
         </a>
     </div>
     {%- endif -%}
     <div class="main-site-subheader menu disable-select">
-        <a class="menu-item" href="/about">
+        <a class="menu-item" href="{{ "/about" | relative_url }}">
                 <svg class="menu-item-icon" width="18" height="19" viewBox="0 0 25 25" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -186,7 +186,7 @@
                 </svg>
                 <p class="menu-item-text">About</p>
         </a>
-        <a class="menu-item" href="/tags">
+        <a class="menu-item" href="{{ "/tags" | relative_url }}">
                 <svg class="menu-item-icon" width="18" height="19" viewBox="0 0 24 25" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path d="M4 9.5H20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -196,7 +196,7 @@
                 </svg>
                 <p class="menu-item-text">Tags</p>
         </a>
-        <a class="menu-item" href="/feed.xml">
+        <a class="menu-item" href="{{ "/feed.xml" | relative_url }}">
                 <svg class="menu-item-icon" width="18" height="19" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M4 11.5C6.38695 11.5 8.67613 12.4482 10.364 14.136C12.0518 15.8239 13 18.1131 13 20.5"
                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -225,12 +225,16 @@
         <input type="text" id="search-input" autocomplete="off" placeholder="Search {{site.heading}}..."/>
         <div id="search-results" class="search-results"></div>
     </div>
-    <script type="text/javascript" src="/assets/js/vendor/lunr.min.js"></script>
-    <script src="/assets/js/Search.js"></script>
+    {%- if site.preferences.search.enabled -%}
+    <script>
+        window.baseUrl = '{{ "/" | relative_url }}';
+    </script>
+    <script type="text/javascript" src="{{ "/assets/js/vendor/lunr.min.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/Search.js" | relative_url }}"></script>
     {%- endif -%}
     {%- if page.permalink != "/" -%}
     <div class="main-site-subheader disable-select" id="scroll-head">
-        <div class="back-icon" onclick="window.location.assign('/');">
+        <div class="back-icon" data-home-url="{{ "/" | relative_url }}" onclick="window.location.assign(this.getAttribute('data-home-url'));">
             <svg class="ripple" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
                 <path d="M0 0h24v24H0z" fill="none"/>
                 <path d="M21 11H6.83l3.58-3.59L9 6l-6 6 6 6 1.41-1.41L6.83 13H21z"/>

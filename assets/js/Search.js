@@ -72,7 +72,8 @@
     }
 
     function searchInit() {
-        var dataUrl = "/assets/js/SearchData.json";
+        var baseUrl = window.baseUrl || '/';
+        var dataUrl = baseUrl + "assets/js/SearchData.json";
 
         getSearchData(dataUrl)
             .then(function(responseText) {
