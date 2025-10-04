@@ -30,14 +30,14 @@ repository: sanjanb/generative-ai-langchain
 # your social media links etc
 #######################################################################
 
-heading: Simply Jekyll
+heading: Generative AI: LangChain
 subheading: # subheading won't work without a tagline,
   # tagline is mandatory if you want the
   # suheading to appear. The reason is
   # having a heading and a subheading looks
   # ridiculous.
   enabled: true
-  name: Notes and Thoughts
+  name: Learning Hub
 tagline: # subheading won't work without a tagline,
   # tagline is mandatory if you want the
   # suheading to appear. The reason is
@@ -47,7 +47,7 @@ tagline: # subheading won't work without a tagline,
   # the subheading to support the main heading
   # which in this case is 'Knowledge Continuum'
   enabled: true
-  name: An experiment to spark conversations
+  name: A structured curriculum for mastering Generative AI with LangChain
 copyright:
   year: 2025
   msg: Sanjan B M # This is a mandatory attribute for copyright to be displayed
@@ -59,13 +59,13 @@ user:
     # granular enabling or disabling as with the 'preferences'
     # or the site-wide settings.
   name: Sanjan B M
-  bio: Programmer ∪ Writer. Interested in constraints and correspondences.
+  bio: AI/ML Engineer ∪ Educator. Building the future with Generative AI and LangChain.
   email: sanjanacharaya1234@gmail.com
   photo: /assets/img/profile.png
   alt_link: sanjanb.github.io
   social: # just leave the field blank or type in null, if you don't have a
     # particular social media account and it won't appear
-    enabled: false # turn this to true
+    enabled: true # turn this to true
     twitter: sanjan
     github: sanjanb
     youtube: rgvr
