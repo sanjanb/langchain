@@ -14,6 +14,7 @@ published: false
 ## 🎯 Project Overview
 
 Create a simple but effective Q&A chatbot that can:
+
 - Engage in natural conversations
 - Remember conversation context
 - Provide helpful and accurate responses
@@ -81,7 +82,7 @@ By completing this project, you will:
 ✅ **Implement** conversation memory and context management  
 ✅ **Practice** prompt engineering fundamentals  
 ✅ **Build** a complete AI application from scratch  
-✅ **Deploy** a simple web interface for your chatbot  
+✅ **Deploy** a simple web interface for your chatbot
 
 ## 🚀 Getting Started
 
@@ -97,6 +98,7 @@ By completing this project, you will:
 ## 📝 Submission
 
 Share your completed project:
+
 1. Upload code to GitHub
 2. Include demo screenshots
 3. Write a brief reflection

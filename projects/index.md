@@ -12,6 +12,7 @@ Learn by building! These projects are designed to reinforce the concepts you lea
 ## Mini Projects
 
 ### Project 1: Simple Q&A Chatbot
+
 **Prerequisites**: Lessons 1-6  
 **Duration**: 2-3 hours  
 **Skills**: Basic LangChain, Prompt Engineering, LLM Integration
@@ -23,6 +24,7 @@ Build a conversational chatbot that can answer questions using a language model.
 ---
 
 ### Project 2: Document Summarization Tool
+
 **Prerequisites**: Lessons 1-9  
 **Duration**: 3-4 hours  
 **Skills**: Document Processing, Text Splitting, Summarization Chains
@@ -34,6 +36,7 @@ Create a tool that can summarize long documents, research papers, or articles. L
 ---
 
 ### Project 3: RAG-powered Knowledge Base
+
 **Prerequisites**: Lessons 1-11  
 **Duration**: 4-5 hours  
 **Skills**: RAG Implementation, Vector Stores, Embeddings, Retrieval
@@ -45,6 +48,7 @@ Build a knowledge base system that can answer questions based on your own docume
 ---
 
 ### Project 4: Multi-tool AI Assistant
+
 **Prerequisites**: Lessons 1-13  
 **Duration**: 5-6 hours  
 **Skills**: Agents, Tool Integration, Function Calling, Complex Workflows
@@ -58,6 +62,7 @@ Develop an AI assistant that can use multiple tools like calculators, web search
 ## Capstone Project
 
 ### Enterprise RAG System
+
 **Prerequisites**: Complete Curriculum  
 **Duration**: 2-3 weeks  
 **Skills**: Production Deployment, Multi-modal RAG, Advanced Optimization, Testing
@@ -95,18 +100,21 @@ graph TD
 ## Project Guidelines
 
 ### Before You Start
+
 - Complete the prerequisite lessons
 - Set up your development environment
 - Review the project requirements and goals
 - Fork/clone the starter code repository
 
 ### During Development
+
 - Follow the step-by-step instructions
 - Test your code frequently
 - Document your implementation decisions
 - Experiment with different approaches
 
 ### After Completion
+
 - Review and refactor your code
 - Test edge cases and error scenarios
 - Deploy your project (if applicable)

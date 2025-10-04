@@ -14,6 +14,7 @@ published: false
 ## 🎯 Project Overview
 
 Develop a document summarization tool that can:
+
 - Process multiple document formats (PDF, DOCX, TXT)
 - Generate concise, accurate summaries
 - Handle long documents through chunking
@@ -88,7 +89,7 @@ By completing this project, you will:
 ✅ **Implement** advanced summarization techniques  
 ✅ **Handle** large documents with chunking strategies  
 ✅ **Create** user-friendly interfaces for AI tools  
-✅ **Optimize** performance for production use  
+✅ **Optimize** performance for production use
 
 ## 🚀 Getting Started
 
@@ -107,9 +108,9 @@ By completing this project, you will:
 Document: "Machine Learning Research Paper (45 pages)"
 
 Summary (3 sentences):
-This paper presents a novel approach to neural network optimization 
-using gradient-free methods. The authors demonstrate 15% improvement 
-in training efficiency across multiple benchmarks. The technique shows 
+This paper presents a novel approach to neural network optimization
+using gradient-free methods. The authors demonstrate 15% improvement
+in training efficiency across multiple benchmarks. The technique shows
 particular promise for resource-constrained environments.
 
 Key Topics: neural networks, optimization, gradient-free methods
