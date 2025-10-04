@@ -4,6 +4,7 @@ title: "Lesson 2: The Six Core Components of LangChain"
 permalink: /lessons/02-introduction-to-langchain/
 lesson-number: 2
 tags: [lesson, foundation, langchain, components, overview]
+content-type: notes
 published: true
 ---
 

@@ -3,6 +3,13 @@ layout: Post
 title: "Lesson 4: Models & Prompt Foundations"
 permalink: /lessons/04-models-and-prompts/
 lesson-number: 4
+tags: [lesson, models, prompts, llm]
+content-type: notes
+published: true
+---out: Post
+title: "Lesson 4: Models & Prompt Foundations"
+permalink: /lessons/04-models-and-prompts/
+lesson-number: 4
 tags: [lesson, foundation, models, prompts, langchain]
 published: true
 ---

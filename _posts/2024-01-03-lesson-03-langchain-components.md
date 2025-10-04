@@ -4,6 +4,7 @@ title: "Lesson 3: LangChain Components & Setup"
 permalink: /lessons/03-langchain-components/
 lesson-number: 3
 tags: [lesson, foundation, langchain, components, setup]
+content-type: notes
 published: true
 ---
 

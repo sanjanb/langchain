@@ -4,6 +4,7 @@ title: "Lesson 1: Introduction to Generative AI"
 permalink: /lessons/01-intro-to-generative-ai/
 lesson-number: 1
 tags: [lesson, foundation, generative-ai, introduction]
+content-type: notes
 published: true
 ---
 
