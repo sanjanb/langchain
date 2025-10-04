@@ -5,12 +5,6 @@ permalink: /about/
 content-type: eg
 ---
 
-# About This Site
-
-This site is a focused learning hub for practitioners who want a structured, foundation-first path into Generative AI—especially building real applications with LangChain and modern LLM tooling. The goal is to help learners develop precise conceptual language, internalize core abstractions, and build production-minded systems step by step.
-
-## About Me
-
 I'm **Sanjan B M**—an engineer and writer interested in:
 
 - Generative AI systems and practical application architecture
@@ -18,6 +12,10 @@ I'm **Sanjan B M**—an engineer and writer interested in:
 - Systematic learning: layering conceptual clarity over implementation detail
 
 I care about durable understanding: learning in a way that compounds across adjacent domains (retrieval systems, agents, evaluation, deployment, reasoning patterns) instead of chasing surface-level trends.
+
+# About This Site
+
+This site is a focused learning hub for practitioners who want a structured, foundation-first path into Generative AI—especially building real applications with LangChain and modern LLM tooling. The goal is to help learners develop precise conceptual language, internalize core abstractions, and build production-minded systems step by step.
 
 ## Learning Philosophy
 
