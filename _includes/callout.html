@@ -1,25 +1,16 @@
-{% comment %}
-Reusable callout include.
-
-USAGE (multiline body):
-  {% capture my_body %}
-  Your **markdown** body text here.
-  {% endcapture %}
-  {% include callout.html type="info" title="Intro" body=my_body %}
-
-USAGE (inline short body):
-  {% include callout.html type="tip" title="Hint" body="Keep prompts DRY." %}
-
-PARAMS:
-  type  => info | tip | warn | danger (default: info)
-  title => Optional heading text
-  body  => Markdown string (captured variable or inline). Deprecated legacy 'content' still supported.
-
-NOTE: Previous block pattern with {% include %} ... {% endinclude %} is not valid in standard Jekyll/Liquid and has been replaced by capture+include.
-{% endcomment %}
-{% assign ctype = include.type | default: 'info' %}
-{% assign body_markdown = include.body | default: include.content %}
+{% comment %} Reusable callout include. USAGE (multiline body): {% capture
+my_body %} Your **markdown** body text here. {% endcapture %} {% include
+callout.html type="info" title="Intro" body=my_body %} USAGE (inline short
+body): {% include callout.html type="tip" title="Hint" body="Keep prompts DRY."
+%} PARAMS: type => info | tip | warn | danger (default: info) title => Optional
+heading text body => Markdown string (captured variable or inline). Deprecated
+legacy 'content' still supported. NOTE: Previous block pattern with {% include
+%} ... {% endinclude %} is not valid in standard Jekyll/Liquid and has been
+replaced by capture+include. {% endcomment %} {% assign ctype = include.type |
+default: 'info' %} {% assign body_markdown = include.body | default:
+include.content %}
 <div class="callout {{ ctype }}">
-  {% if include.title %}<div class="callout-title">{{ include.title }}</div>{% endif %}
-  {% if body_markdown %}{{ body_markdown | markdownify }}{% endif %}
+  {% if include.title %}
+  <div class="callout-title">{{ include.title }}</div>
+  {% endif %} {% if body_markdown %}{{ body_markdown | markdownify }}{% endif %}
 </div>
