@@ -13,10 +13,13 @@ hide_title: true
 
 # Lesson 1: Introduction to Generative AI
 
-<div class="callout info">
-	<div class="callout-title">Intro</div>
-	<p>Welcome to the exciting world of Generative AI! This lesson builds the conceptual bedrock you’ll need before touching frameworks like LangChain.</p>
-</div>
+{% include lesson-progress.html %}
+
+{% include callout.html type="info" title="Intro" %}
+Welcome to the exciting world of Generative AI! This lesson builds the conceptual bedrock you’ll need before touching frameworks like LangChain.
+{% endinclude %}
+
+{% include lesson-toc.html %}
 
 ## Learning Objectives
 

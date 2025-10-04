@@ -11,10 +11,13 @@ hide_title: true
 
 # Lesson 4: Models & Prompt Foundations
 
-<div class="callout info">
-    <div class="callout-title">Why this matters</div>
-    <p>Model selection + prompt design determine 70% of early application quality. Here we turn vague prompting into deliberate, testable interfaces.</p>
-</div>
+{% include lesson-progress.html %}
+
+{% include callout.html type="info" title="Why this matters" %}
+Model selection + prompt design determine 70% of early application quality. Here we turn vague prompting into deliberate, testable interfaces.
+{% endinclude %}
+
+{% include lesson-toc.html %}
 
 ---
 

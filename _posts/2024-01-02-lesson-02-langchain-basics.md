@@ -185,12 +185,7 @@ In the next lesson we shift from concepts to implementation: environment setup, 
 	<li><strong>5.</strong> Which trio best describes a basic RAG flow? (a) Prompt→Model→Parser (b) Load→Split→Retrieve (c) Split→Embed→Retrieve + Inject</li>
 </ul>
 
-<div class="callout tip">
-	<div class="callout-title">Reflection Prompts</div>
-	<p>Pick one real problem you want to solve. Sketch (on paper) which of the six components you’d use and why. Circle uncertain areas—that’s where experimentation belongs.</p>
-</div>
-
-{% comment %} Converted above raw callout to include for consistency {% endcomment %}
+{% comment %} Reflection callout converted to include for consistency {% endcomment %}
 {% include callout.html type="tip" title="Reflection Prompts" %}
 Pick one real problem you want to solve. Sketch (on paper) which of the six components you’d use and why. Circle uncertain areas—that’s where experimentation belongs.
 {% endinclude %}
