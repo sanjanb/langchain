@@ -1,23 +1,29 @@
-{% comment %} Generates a mini table of contents from h2/h3 headings in
-page.content. Usage: {% include lesson-toc.html %} Assumes headings are rendered
-after Markdown conversion in page.content. {% endcomment %} {% assign raw =
-page.content %} {% assign lines = raw | split: '\n' %}
+{% comment %} Mini table of contents. Rules: - Only capture markdown headings
+starting at beginning of line: '## ' or '### '. - Ignore lines containing Liquid
+delimiters '{%' or '{{' to avoid accidental capture of includes/captures. -
+Generate slugs similar to kramdown: lowercase, remove non-alphanum except spaces
+-> dash collapse. - Skip duplicates. {% endcomment %} {% assign raw =
+page.content %} {% assign lines = raw | split: '\n' %} {% assign seen = '' %}
 <div class="callout tip lesson-toc">
   <div class="callout-title">On this page</div>
   <ul class="lesson-toc-list">
-    {% for l in lines %} {% if l contains '## ' and l contains '### ' == false
-    %} {% assign txt = l | remove: '## ' | strip %} {% assign id = txt |
-    downcase | replace: ' ','-' | replace: '`','' | replace: ':','' | replace:
-    ',','' %}
-    <li class="lvl2">
-      <a href="#{% if id %}{{ id }}{% endif %}">{{ txt }}</a>
-    </li>
-    {% elsif l contains '### ' %} {% assign txt = l | remove: '### ' | strip %}
-    {% assign id = txt | downcase | replace: ' ','-' | replace: '`','' |
-    replace: ':','' | replace: ',','' %}
-    <li class="lvl3">
-      <a href="#{% if id %}{{ id }}{% endif %}">{{ txt }}</a>
-    </li>
-    {% endif %} {% endfor %}
+    {% for l in lines %} {% assign trimmed = l | strip %} {% if trimmed == ''
+    %}{% continue %}{% endif %} {% if trimmed contains '{%' or trimmed contains
+    '{{' %}{% continue %}{% endif %} {% if trimmed startswith '### ' %} {%
+    assign level = 3 %} {% assign txt = trimmed | remove_first: '### ' | strip
+    %} {% elsif trimmed startswith '## ' %} {% assign level = 2 %} {% assign txt
+    = trimmed | remove_first: '## ' | strip %} {% else %} {% continue %} {%
+    endif %} {% comment %} Build slug {% endcomment %} {% assign slug = txt |
+    downcase %} {% assign slug = slug | replace: ' & ', ' ' | replace: '&', ' '
+    %} {% assign slug = slug | replace: '.', '' | replace: ',', '' | replace:
+    ':', '' | replace: '`','' | replace: '"','' | replace: "'", '' | replace:
+    '(', '' | replace: ')', '' | replace: '/', '' | replace: '?','' | replace:
+    '!','' %} {% assign slug = slug | replace: '–','-' | replace: '—','-' %} {%
+    assign slug = slug | replace: '%','' %} {% assign slug = slug | replace: '
+    ', ' ' | replace: ' ', ' ' %} {% assign slug = slug | strip %} {% assign
+    slug = slug | replace: ' ', '-' %} {% if seen contains slug %}{% continue
+    %}{% endif %} {% assign seen = seen | append: '|' | append: slug %}
+    <li class="lvl{{ level }}"><a href="#{{ slug }}">{{ txt }}</a></li>
+    {% endfor %}
   </ul>
 </div>
