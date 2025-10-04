@@ -2,8 +2,7 @@
 layout: Post
 title: "Curriculum Overview"
 permalink: /curriculum/
-content-type: eg
-content-type: static
+published: true
 ---
 
 # Generative AI: LangChain Curriculum
