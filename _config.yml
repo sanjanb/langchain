@@ -19,8 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://simply-jekyll.netlify.app/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/generative-ai-langchain" # the subpath of your site, e.g. /blog
+url: "https://sanjanb.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 #######################################################################
 # Settings related to the Header and your About page go here,such as 
@@ -47,24 +47,24 @@ tagline: # subheading won't work without a tagline,
   enabled: true
   name: An experiment to spark conversations
 copyright: 
-  year: 2020
-  msg: Raghuveer S # This is a mandatory attribute for copyright to be displayed
+  year: 2025
+  msg: Sanjan B M # This is a mandatory attribute for copyright to be displayed
 
 user:
   display: true # setting it to false will remove the header image and bio
                 # Note that user settings come wholesale, it does not have the 
                 # granular enabling or disabling as with the 'preferences'
                 # or the site-wide settings.
-  name: Raghuveer S
+  name: Sanjan B M
   bio: Programmer ∪ Writer. Interested in constraints and correspondences.
-  email: raghu-veer@outlook.com
+  email: sanjanacharaya1234@gmail.com
   photo: /assets/img/profile.png
-  alt_link: rgvr.me
+  alt_link: sanjanb.github.io
   social: # just leave the field blank or type in null, if you don't have a
           # particular social media account and it won't appear
     enabled: false  # turn this to true
-    twitter: rgvrme
-    github: rgvr 
+    twitter: sanjan
+    github: sanjanb 
     youtube: rgvr 
     linkedin: rgvr  
     twitch: null
@@ -125,7 +125,8 @@ theme: null
 plugins:
   - jekyll-feed 
   - jekyll-sitemap 
-  - jekyll-tidy
+  # Remove jekyll-tidy for GitHub Pages compatibility
+  # - jekyll-tidy
 
 # Disqus Comments
 disqus:
@@ -138,7 +139,7 @@ markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
-  math_engine: katex
+  math_engine: mathjax  # Changed from katex to mathjax for GitHub Pages compatibility
   smart_quotes: ["apos", "apos", "quot", "quot"]
   syntax_highlighter: rouge
   
