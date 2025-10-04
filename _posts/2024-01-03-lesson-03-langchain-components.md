@@ -11,10 +11,13 @@ hide_title: true
 
 # Lesson 3: LangChain Components & Setup
 
-<div class="callout info">
-    <div class="callout-title">From concepts to code</div>
-    <p>We now translate the architecture from Lesson 2 into working practice—installing LangChain, invoking models, composing runnables, and adding structure.</p>
-</div>
+{% include lesson-progress.html %}
+
+{% include callout.html type="info" title="From concepts to code" %}
+We now translate the architecture from Lesson 2 into working practice—installing LangChain, invoking models, composing runnables, and adding structure.
+{% endinclude %}
+
+{% include lesson-toc.html %}
 
 ## Learning Objectives
 

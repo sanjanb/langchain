@@ -13,10 +13,13 @@ hide_title: true
 
 # Lesson 2 – The Six Core Components of LangChain
 
-<div class="callout info">
-	<div class="callout-title">Why this lesson matters</div>
-	<p>Before we start wiring code in LangChain, we need a mental map of the six primitives the framework is built around. Mastering these lets you assemble 80–90% of production use‑cases without guesswork.</p>
-</div>
+{% include lesson-progress.html %}
+
+{% include callout.html type="info" title="Why this lesson matters" %}
+Before we start wiring code in LangChain, we need a mental map of the six primitives the framework is built around. Mastering these lets you assemble 80–90% of production use‑cases without guesswork.
+{% endinclude %}
+
+{% include lesson-toc.html %}
 
 ## Learning Objectives
 
@@ -186,6 +189,11 @@ In the next lesson we shift from concepts to implementation: environment setup, 
 	<div class="callout-title">Reflection Prompts</div>
 	<p>Pick one real problem you want to solve. Sketch (on paper) which of the six components you’d use and why. Circle uncertain areas—that’s where experimentation belongs.</p>
 </div>
+
+{% comment %} Converted above raw callout to include for consistency {% endcomment %}
+{% include callout.html type="tip" title="Reflection Prompts" %}
+Pick one real problem you want to solve. Sketch (on paper) which of the six components you’d use and why. Circle uncertain areas—that’s where experimentation belongs.
+{% endinclude %}
 
 ---
 
