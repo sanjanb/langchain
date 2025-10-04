@@ -22,10 +22,13 @@ hide_title: true
 
 By the end of this lesson, you will be able to:
 
-- **Understand** what Generative AI is and how it differs from traditional AI
-- **Identify** key applications and use cases for Generative AI
-- **Recognize** the major types of generative models
-- **Appreciate** the potential and limitations of current technology
+<ul class="objective-list">
+	<li><strong>Differentiate Generative vs. Traditional AI</strong>: Clearly explain how systems that synthesize content differ from predictive / discriminative pipelines, including how sampling drives novelty.</li>
+	<li><strong>Map Practical Use Cases</strong>: Identify where generative approaches produce leverage (scale, abstraction, automation) and where rule‑based or retrieval‑only systems are still the right tool.</li>
+	<li><strong>Classify Model Families</strong>: Distinguish LLMs, diffusion/image models, code assistants, and multimodal architectures—knowing strengths, trade‑offs, and typical deployment contexts.</li>
+	<li><strong>Assess Benefits & Risks</strong>: Evaluate outputs with a balanced lens: productivity, creativity, acceleration—against factual drift, bias propagation, and governance concerns.</li>
+	<li><strong>Describe the Lifecycle</strong>: Articulate the journey from pretraining → adaptation (fine‑tuning, instruction, RAG) → controlled inference and alignment mechanisms.</li>
+</ul>
 
 ---
 
