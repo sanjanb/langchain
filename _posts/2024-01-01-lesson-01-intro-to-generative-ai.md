@@ -9,6 +9,7 @@ published: true
 ---
 
 <!-- Primary lesson heading intentionally duplicated in layout; keep one here for RSS & SEO -->
+
 # Lesson 1: Introduction to Generative AI
 
 > **Intro**  
@@ -27,7 +28,7 @@ By the end of this lesson, you will be able to:
 
 ## 🤖 What is Generative AI?
 
-**Generative AI** refers to artificial intelligence systems that **create new content** (text, images, code, audio, video) rather than just classifying, retrieving, or predicting. Traditional AI: *"Given X, predict Y."* Generative AI: *"Given X (a prompt), produce a new artifact."*
+**Generative AI** refers to artificial intelligence systems that **create new content** (text, images, code, audio, video) rather than just classifying, retrieving, or predicting. Traditional AI: _"Given X, predict Y."_ Generative AI: _"Given X (a prompt), produce a new artifact."_
 
 > **Key Idea:** Generative models learn probability distributions over tokens, pixels, or latent representations and then **sample** from them in a controlled way.
 
