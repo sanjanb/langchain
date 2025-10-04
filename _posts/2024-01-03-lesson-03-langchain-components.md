@@ -27,15 +27,15 @@ By the end of this lesson you will be able to:
 
 LangChain centers around **composable primitives**:
 
-| Primitive | Purpose | Typical Examples |
-| --------- | ------- | ---------------- |
-| LLM / Chat Model | Core text generation interface | `ChatOpenAI`, `ChatAnthropic` |
-| Prompt / PromptTemplate | Parameterized input formatting | System + user message templates |
-| Chain / Runnable | Execution pipeline (can branch/compose) | Prompt → LLM, multi-step workflows |
-| Agent | Dynamic decision-maker that selects tools | Tool-using conversational assistant |
-| Tool | External capability invoked by an agent | Web search, DB query, calculator |
-| Memory | Persists conversational or contextual state | Buffer, summary, vector store memory |
-| Output Parser | Structures raw model text into objects | Pydantic parser, JSON schema parser |
+| Primitive               | Purpose                                     | Typical Examples                     |
+| ----------------------- | ------------------------------------------- | ------------------------------------ |
+| LLM / Chat Model        | Core text generation interface              | `ChatOpenAI`, `ChatAnthropic`        |
+| Prompt / PromptTemplate | Parameterized input formatting              | System + user message templates      |
+| Chain / Runnable        | Execution pipeline (can branch/compose)     | Prompt → LLM, multi-step workflows   |
+| Agent                   | Dynamic decision-maker that selects tools   | Tool-using conversational assistant  |
+| Tool                    | External capability invoked by an agent     | Web search, DB query, calculator     |
+| Memory                  | Persists conversational or contextual state | Buffer, summary, vector store memory |
+| Output Parser           | Structures raw model text into objects      | Pydantic parser, JSON schema parser  |
 
 The mental model: **Inputs → (Prompt Formatting) → LLM Call(s) → (Parsing / Post-processing) → Output**.
 
@@ -44,9 +44,11 @@ The mental model: **Inputs → (Prompt Formatting) → LLM Call(s) → (Parsing 
 ## 2. Installation & Environment
 
 ### Python Version
+
 Use Python 3.9+ (3.10–3.12 recommended for ecosystem compatibility).
 
 ### Install Core Packages
+
 ```bash
 pip install langchain
 pip install langchain-openai langchain-anthropic langchain-community
@@ -56,12 +58,16 @@ pip install python-dotenv pydantic
 ```
 
 ### Environment Variables
+
 Create a `.env` file (never commit real keys):
+
 ```bash
 OPENAI_API_KEY=your_openai_api_key_here
 ANTHROPIC_API_KEY=your_anthropic_api_key_here
 ```
+
 Load them in Python:
+
 ```python
 from dotenv import load_dotenv
 load_dotenv()
@@ -70,6 +76,7 @@ load_dotenv()
 ---
 
 ## 3. First Minimal Chat Invocation
+
 ```python
 import os
 from dotenv import load_dotenv
@@ -82,6 +89,7 @@ llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0.7)
 response = llm.invoke([HumanMessage(content="Explain quantum computing in one sentence.")])
 print(response.content)
 ```
+
 **Key Idea:** `invoke()` accepts a list of messages for chat models; behind the scenes LangChain normalizes provider differences.
 
 ---
@@ -89,6 +97,7 @@ print(response.content)
 ## 4. Prompt Templates and Chaining
 
 LangChain encourages separating **template** from **model**:
+
 ```python
 from langchain.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
@@ -106,11 +115,13 @@ machines to perform tasks that typically require human intelligence..."""
 result = chain.invoke({"text": text_to_summarize, "word_count": 40})
 print(result.content)
 ```
+
 **Why `|`?** In LangChain v0.3 the runnable protocol standardizes synchronous / async execution and streaming across composable steps.
 
 ---
 
 ## 5. Structured Output with Pydantic
+
 ```python
 from langchain.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
@@ -143,6 +154,7 @@ print(result.word_count)
 ---
 
 ## 6. Expanding to Multi-step Chains
+
 ```python
 from langchain.prompts import PromptTemplate, ChatPromptTemplate
 from langchain.chains import LLMChain, SimpleSequentialChain
@@ -160,6 +172,7 @@ workflow = SimpleSequentialChain(chains=[facts_chain, quiz_chain])
 quiz = workflow.run("artificial intelligence")
 print(quiz)
 ```
+
 **Takeaway:** Higher-order chains let you encapsulate logic while retaining transparency.
 
 ---
@@ -167,6 +180,7 @@ print(quiz)
 ## 7. Direct API vs. LangChain Abstraction
 
 Direct OpenAI call (manual formatting):
+
 ```python
 import openai, os
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -177,7 +191,9 @@ resp = openai.ChatCompletion.create(
 )
 print(resp.choices[0].message.content)
 ```
+
 LangChain version:
+
 ```python
 from langchain_openai import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
@@ -189,19 +205,20 @@ llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0.7)
 chain = prompt | llm
 print(chain.invoke({"topic": "machine learning"}).content)
 ```
+
 **Benefits:** Swappable models, reusable prompts, richer tooling (retries, caching, tracing via LangSmith).
 
 ---
 
 ## 8. Ecosystem Snapshot
 
-| Category | Examples |
-| -------- | -------- |
-| Vector Stores | Pinecone, Chroma, FAISS, Weaviate |
-| Document Loaders | PDF, HTML, Web, CSV, Notion |
-| Memory | Buffer, Summary, Vector store-backed |
-| Monitoring | LangSmith, W&B |
-| Embeddings | OpenAI, HuggingFace, Instructor, Cohere |
+| Category         | Examples                                |
+| ---------------- | --------------------------------------- |
+| Vector Stores    | Pinecone, Chroma, FAISS, Weaviate       |
+| Document Loaders | PDF, HTML, Web, CSV, Notion             |
+| Memory           | Buffer, Summary, Vector store-backed    |
+| Monitoring       | LangSmith, W&B                          |
+| Embeddings       | OpenAI, HuggingFace, Instructor, Cohere |
 
 ---
 
