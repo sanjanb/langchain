@@ -9,7 +9,7 @@ content-type: static
 
 Browse the full LangChain learning sequence. Lessons are listed in recommended order.
 
-{% assign lessons = site.posts | where: "content-type", "lesson" | sort: "lesson-number" %}
+{% assign lessons = site.posts | where_exp: "post", "post.tags contains 'lesson'" | sort: "lesson-number" %}
 
 <table>
   <thead>

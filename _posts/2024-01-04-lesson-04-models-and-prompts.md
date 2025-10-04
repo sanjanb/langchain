@@ -2,9 +2,9 @@
 layout: Post
 title: "Lesson 4: Models & Prompt Foundations"
 permalink: /lessons/04-models-and-prompts/
-content-type: lesson
 lesson-number: 4
 tags: [lesson, foundation, models, prompts, langchain]
+published: true
 ---
 
 # Lesson 4: Models & Prompt Foundations

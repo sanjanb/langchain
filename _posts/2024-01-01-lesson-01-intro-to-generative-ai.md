@@ -2,9 +2,9 @@
 layout: Post
 title: "Lesson 1: Introduction to Generative AI"
 permalink: /lessons/01-intro-to-generative-ai/
-content-type: lesson
 lesson-number: 1
 tags: [lesson, foundation, generative-ai, introduction]
+published: true
 ---
 
 # Lesson 1: Introduction to Generative AI

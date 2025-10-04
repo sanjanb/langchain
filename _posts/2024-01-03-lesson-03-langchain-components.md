@@ -2,9 +2,9 @@
 layout: Post
 title: "Lesson 3: LangChain Components & Setup"
 permalink: /lessons/03-langchain-components/
-content-type: lesson
 lesson-number: 3
 tags: [lesson, foundation, langchain, components, setup]
+published: true
 ---
 
 # Lesson 3: LangChain Components & Setup
