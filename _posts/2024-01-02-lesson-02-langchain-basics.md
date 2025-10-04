@@ -20,8 +20,6 @@ Before we start wiring code in LangChain, we need a mental map of the six primit
 {% endcapture %}
 {% include callout.html type="info" title="Why this lesson matters" body=why_lesson_matters %}
 
-{% include lesson-toc.html %}
-
 ## Learning Objectives
 
 <ul class="objective-list">

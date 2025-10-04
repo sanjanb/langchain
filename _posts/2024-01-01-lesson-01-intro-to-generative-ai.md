@@ -20,8 +20,6 @@ Welcome to the exciting world of Generative AI! This lesson builds the conceptua
 {% endcapture %}
 {% include callout.html type="info" title="Intro" body=intro_callout %}
 
-{% include lesson-toc.html %}
-
 ## Learning Objectives
 
 By the end of this lesson, you will be able to:

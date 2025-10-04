@@ -18,8 +18,6 @@ We now translate the architecture from Lesson 2 into working practice—installi
 {% endcapture %}
 {% include callout.html type="info" title="From concepts to code" body=from_concepts_to_code %}
 
-{% include lesson-toc.html %}
-
 ## Learning Objectives
 
 <ul class="objective-list">
