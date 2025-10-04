@@ -245,5 +245,5 @@ print(chain.invoke({"topic": "machine learning"}).content)
 
 In Lesson 4 we will dive specifically into **LLM model selection and prompt engineering fundamentals**, then move toward parsing, runnables/LCEL, and memory patterns.
 
-[**← Previous: Lesson 2 - Introduction to LangChain**](/lessons/02-introduction-to-langchain/)  
-[**Next: Lesson 4 - Models & Prompt Foundations →**](/lessons/04-models-and-prompts/)
+[**← Previous: Lesson 2 - Introduction to LangChain**]({{ "/lessons/02-introduction-to-langchain/" | relative_url }})  
+[**Next: Lesson 4 - Models & Prompt Foundations →**]({{ "/lessons/04-models-and-prompts/" | relative_url }})

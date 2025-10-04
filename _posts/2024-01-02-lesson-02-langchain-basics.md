@@ -23,5 +23,5 @@ This introduction sets the foundation for the lessons ahead. In the next lesson,
 
 ---
 
-[**← Previous: Lesson 1 - Introduction to Generative AI**](/lessons/01-intro-to-generative-ai/)  
-[**Next: Lesson 3 - LangChain Components & Setup →**](/lessons/03-langchain-components/)
+[**← Previous: Lesson 1 - Introduction to Generative AI**]({{ "/lessons/01-intro-to-generative-ai/" | relative_url }})  
+[**Next: Lesson 3 - LangChain Components & Setup →**]({{ "/lessons/03-langchain-components/" | relative_url }})

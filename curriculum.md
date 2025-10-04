@@ -157,7 +157,7 @@ This curriculum is designed to balance **breadth + depth** — ensuring learners
 
 ## Getting Started
 
-Ready to begin your journey? Start with [**Lesson 1: Introduction to Generative AI**](/lessons/01-intro-to-generative-ai/) or explore our [**Project Overview**](/projects/) to see what you'll be building.
+Ready to begin your journey? Start with [**Lesson 1: Introduction to Generative AI**]({{ "/lessons/01-intro-to-generative-ai/" | relative_url }}) or explore our [**Project Overview**]({{ "/projects/" | relative_url }}) to see what you'll be building.
 
 **Prerequisites**: Basic Python knowledge and enthusiasm for AI!
 
@@ -165,9 +165,9 @@ Ready to begin your journey? Start with [**Lesson 1: Introduction to Generative 
 
 **Next Steps:**
 
-- [View All Lessons](/posts/)
-- [Explore Projects](/projects/)
-- [Get Started with Lesson 1](/lessons/01-intro-to-generative-ai/)
+- [View All Lessons]({{ "/posts/" | relative_url }})
+- [Explore Projects]({{ "/projects/" | relative_url }})
+- [Get Started with Lesson 1]({{ "/lessons/01-intro-to-generative-ai/" | relative_url }})
 
 ### **Advanced Applications Phase** (Lessons 14-19)
 
