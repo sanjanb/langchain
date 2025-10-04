@@ -33,3 +33,6 @@ gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 gem 'jekyll-sitemap'
 # Remove kramdown-math-katex for GitHub Pages compatibility
 # gem 'kramdown-math-katex'
+
+# Add faraday-retry to fix Faraday v2.0+ warning
+gem 'faraday-retry'
