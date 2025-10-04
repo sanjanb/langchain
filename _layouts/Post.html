@@ -76,16 +76,14 @@
         <main class="post-main">
           {%- unless page.hide_title == true -%}
           <h1>{{page.title}}</h1>
-          {%- endunless -%}
-          {%- include Content.html -%} {%- include Backlinks.html -%} {%-
-          include Related.html -%}
+          {%- endunless -%} {%- include Content.html -%} {%- include
+          Backlinks.html -%} {%- include Related.html -%}
         </main>
         {%- endif -%} {%- if page.content-type == "eg" -%}
         <main class="post-main">
           {%- unless page.hide_title == true -%}
           <h1>{{page.title}}</h1>
-          {%- endunless -%}
-          {%- include Content.html -%}
+          {%- endunless -%} {%- include Content.html -%}
         </main>
         {%- endif -%} {%- include Comments.html -%} {%- include Footer.html -%}
       </div>
