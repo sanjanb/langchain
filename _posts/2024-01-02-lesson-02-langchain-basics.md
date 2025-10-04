@@ -43,8 +43,8 @@ LangChain solves this by **standardizing model invocation**. You can switch prov
 
 Two broad model types:
 
-* **Language / Chat Models:** Input text → output text (chatbots, assistants, agents). Often support structured tool calling, system prompts, function outputs, or multimodality.
-* **Embedding Models:** Input text → output vector (semantic search, clustering, retrieval).
+- **Language / Chat Models:** Input text → output text (chatbots, assistants, agents). Often support structured tool calling, system prompts, function outputs, or multimodality.
+- **Embedding Models:** Input text → output vector (semantic search, clustering, retrieval).
 
 ---
 
@@ -102,10 +102,10 @@ LangChain’s **Memory** component manages conversational or contextual persiste
 
 Memory patterns:
 
-* **Conversation Buffer:** Stores full chat transcript (simple but token-hungry).
-* **Buffer Window:** Keeps only the last *N* turns (token-efficient).
-* **Summary Memory:** Maintains a rolling summary + a few recent turns.
-* **Hybrid / Vector Memory:** Stores embeddings of past interactions for semantic recall.
+- **Conversation Buffer:** Stores full chat transcript (simple but token-hungry).
+- **Buffer Window:** Keeps only the last _N_ turns (token-efficient).
+- **Summary Memory:** Maintains a rolling summary + a few recent turns.
+- **Hybrid / Vector Memory:** Stores embeddings of past interactions for semantic recall.
 
 Memory enables pronoun resolution (“that”, “he”), context continuity, user personalization, and multi-step reasoning continuity.
 
