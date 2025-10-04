@@ -35,7 +35,7 @@ Develop a document summarization tool that can:
 - **Streamlit**: Web interface
 - **tiktoken**: Token counting and management
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 summarizer-project/
@@ -51,7 +51,7 @@ summarizer-project/
 └── sample_documents/        # Test documents
 ```
 
-## 📋 Implementation Steps
+## Implementation Steps
 
 ### Step 1: Document Processing Pipeline
 
@@ -81,30 +81,28 @@ summarizer-project/
 3. Create summary comparisons
 4. Add batch processing
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 By completing this project, you will:
 
-✅ **Master** document loading and text processing  
-✅ **Implement** advanced summarization techniques  
-✅ **Handle** large documents with chunking strategies  
-✅ **Create** user-friendly interfaces for AI tools  
-✅ **Optimize** performance for production use
+- **Master** document loading and text processing  
+- **Implement** advanced summarization techniques  
+- **Handle** large documents with chunking strategies  
+- **Create** user-friendly interfaces for AI tools  
+- **Optimize** performance for production use  
 
-## 🚀 Getting Started
+## Getting Started
 
 [**Download Starter Code →**](https://github.com/sanjanb/generative-ai-langchain/tree/main/projects/project-2-starter)
 
-## 🎖️ Bonus Challenges
+## Bonus Challenges
 
 - Add support for images and tables
 - Implement multi-language summarization
 - Create executive summary templates
 - Add collaborative annotation features
 
-## 📊 Example Output
-
-```
+## Example Output```
 Document: "Machine Learning Research Paper (45 pages)"
 
 Summary (3 sentences):
@@ -120,4 +118,4 @@ Original Length: 12,450 words → Summary: 67 words
 
 ---
 
-**Ready to build your document summarizer? Let's get started! 📚**
+**Ready to build your document summarizer? Let's get started!**

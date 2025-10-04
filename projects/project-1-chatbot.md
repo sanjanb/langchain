@@ -7,11 +7,11 @@ tags: [project, chatbot, basics, llm]
 published: false
 ---
 
-# 🤖 Project 1: Simple Q&A Chatbot
+# Project 1: Simple Q&A Chatbot
 
 **Build your first conversational AI application using LangChain!**
 
-## 🎯 Project Overview
+## Project Overview
 
 Create a simple but effective Q&A chatbot that can:
 
@@ -20,20 +20,20 @@ Create a simple but effective Q&A chatbot that can:
 - Provide helpful and accurate responses
 - Handle various types of questions
 
-## 📚 Prerequisites
+## Prerequisites
 
 - **Lessons Required**: 1-6
 - **Python Knowledge**: Basic (variables, functions, loops)
 - **Estimated Time**: 2-3 hours
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **LangChain**: Core framework
 - **OpenAI GPT**: Language model (or alternative LLM)
 - **Streamlit**: Simple web interface
 - **Python**: Programming language
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 chatbot-project/
@@ -44,7 +44,7 @@ chatbot-project/
 └── README.md            # Project documentation
 ```
 
-## 📋 Implementation Steps
+## Implementation Steps
 
 ### Step 1: Environment Setup
 
@@ -74,15 +74,15 @@ chatbot-project/
 3. Handle edge cases
 4. Optimize performance
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 By completing this project, you will:
 
-✅ **Understand** LangChain basics and LLM integration  
-✅ **Implement** conversation memory and context management  
-✅ **Practice** prompt engineering fundamentals  
-✅ **Build** a complete AI application from scratch  
-✅ **Deploy** a simple web interface for your chatbot
+- **Understand** LangChain basics and LLM integration  
+- **Implement** conversation memory and context management  
+- **Practice** prompt engineering fundamentals  
+- **Build** a complete AI application from scratch  
+- **Deploy** a simple web interface for your chatbot
 
 ## 🚀 Getting Started
 
