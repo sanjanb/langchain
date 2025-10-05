@@ -398,7 +398,8 @@ p {
   margin: 16px 0;
 }
 
-ul, ol {
+ul,
+ol {
   margin: 16px 0;
   padding-left: 28px;
 }
