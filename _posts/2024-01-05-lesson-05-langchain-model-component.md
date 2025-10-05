@@ -106,9 +106,9 @@ response = model.invoke("What is LangChain?")
 print(response.content)
 ```
 
-* **Class Used:** `ChatOpenAI` (for chat models) or `OpenAI` (for LLMs)
-* **Setup:** Requires an OpenAI API key stored in a `.env` file
-* **Response Format:** Returns output under a `content` key with metadata such as token usage and response time
+- **Class Used:** `ChatOpenAI` (for chat models) or `OpenAI` (for LLMs)
+- **Setup:** Requires an OpenAI API key stored in a `.env` file
+- **Response Format:** Returns output under a `content` key with metadata such as token usage and response time
 
 #### Anthropic (Claude Models)
 
@@ -148,14 +148,16 @@ print(response.content)
 These models are **freely available** and can be downloaded or fine-tuned locally.
 
 #### Advantages
-* No recurring API cost
-* Full control and data privacy
-* Suitable for offline/local environments
+
+- No recurring API cost
+- Full control and data privacy
+- Suitable for offline/local environments
 
 #### Disadvantages
-* Require powerful GPUs
-* Slower inference compared to hosted APIs
-* May generate less polished responses
+
+- Require powerful GPUs
+- Slower inference compared to hosted APIs
+- May generate less polished responses
 
 #### Integration Methods
 
@@ -217,10 +219,10 @@ doc_embeddings = embeddings.embed_documents(documents)
 print(f"Number of document embeddings: {len(doc_embeddings)}")
 ```
 
-* **Functions:**
-  * `embed_query(text)` → Embeds a single query into a vector.
-  * `embed_documents(list)` → Embeds multiple texts into 2D vectors.
-* **Use Case:** Ideal for scalable, high-accuracy semantic search in production-grade RAG systems.
+- **Functions:**
+  - `embed_query(text)` → Embeds a single query into a vector.
+  - `embed_documents(list)` → Embeds multiple texts into 2D vectors.
+- **Use Case:** Ideal for scalable, high-accuracy semantic search in production-grade RAG systems.
 
 ### Open-Source: Hugging Face Embeddings
 
@@ -272,7 +274,7 @@ query_embedding = embeddings.embed_query(query)
 
 # Calculate similarity scores
 similarities = cosine_similarity(
-    [query_embedding], 
+    [query_embedding],
     doc_embeddings
 )[0]
 
@@ -294,9 +296,9 @@ print(f"Similarity score: {best_score:.4f}")
 
 To improve performance and cost efficiency:
 
-* **Store embeddings once** in a **Vector Database** (e.g., Pinecone, ChromaDB, FAISS).
-* Avoid recomputing embeddings for the same documents repeatedly.
-* Enable faster and scalable RAG query responses.
+- **Store embeddings once** in a **Vector Database** (e.g., Pinecone, ChromaDB, FAISS).
+- Avoid recomputing embeddings for the same documents repeatedly.
+- Enable faster and scalable RAG query responses.
 
 ---
 
@@ -315,4 +317,4 @@ To improve performance and cost efficiency:
 
 ---
 
-{% include lesson-nav.html prev_url="/lessons/03-langchain-components/" prev_text="Lesson 3 - LangChain Components & Setup" next_url="/lessons/05-output-parsing/" next_text="Lesson 5 - Output Parsing" %}
+{% include lesson-nav.html prev_url="/lessons/04-models-and-prompts/" prev_text="Lesson 4 - Models & Prompt Foundations" next_url="/lessons/06-output-parsing/" next_text="Lesson 6 - Output Parsing" %}

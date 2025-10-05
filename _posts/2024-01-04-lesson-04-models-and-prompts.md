@@ -208,4 +208,4 @@ print(final)
 
 In Lesson 5 we will focus exclusively on **Output Parsing**—ensuring LLM responses are reliable, constrained, and machine-consumable.
 
-{% include lesson-nav.html prev_url="/lessons/03-langchain-components/" prev_text="Lesson 3 - LangChain Components & Setup" next_url="/lessons/05-output-parsing/" next_text="Lesson 5 - Output Parsing" %}
+{% include lesson-nav.html prev_url="/lessons/03-langchain-components/" prev_text="Lesson 3 - LangChain Components & Setup" next_url="/lessons/05-langchain-model-component/" next_text="Lesson 5 - LangChain Model Component Deep Dive" %}
