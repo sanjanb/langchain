@@ -144,6 +144,11 @@ kramdown:
   math_engine: mathjax # Changed from katex to mathjax for GitHub Pages compatibility
   smart_quotes: ["apos", "apos", "quot", "quot"]
   syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    line_numbers: true
+    css_class: 'highlight'
+    span:
+      line_numbers: false
 
 sass:
   style: compressed

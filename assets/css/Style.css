@@ -179,6 +179,122 @@ ul.feature-list.warn li {
   letter-spacing: 0.5px;
 }
 
+/* Enhanced Code Blocks */
+.highlight {
+  position: relative;
+  background: #2d3748;
+  border-radius: 8px;
+  margin: 20px 0;
+  overflow-x: auto;
+  border: 1px solid #4a5568;
+}
+
+.highlight pre {
+  margin: 0;
+  padding: 16px;
+  background: transparent;
+  color: #e2e8f0;
+  font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  overflow-x: auto;
+}
+
+.highlight code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: inherit;
+  color: inherit;
+}
+
+/* Inline code */
+code {
+  background: var(--secondary-bg-color);
+  color: #e53e3e;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+  font-size: 0.875em;
+  border: 1px solid var(--secondary-border-color);
+}
+
+/* Code block language label */
+.highlight::before {
+  content: attr(data-lang);
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  background: #4a5568;
+  color: #a0aec0;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  z-index: 1;
+}
+
+/* Copy button for code blocks */
+.code-copy-btn {
+  position: absolute;
+  top: 8px;
+  right: 80px;
+  background: #4a5568;
+  color: #a0aec0;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  z-index: 2;
+}
+
+.code-copy-btn:hover {
+  background: #2d3748;
+  color: #e2e8f0;
+}
+
+.code-copy-btn.copied {
+  background: #38a169;
+  color: white;
+}
+
+/* Scrollbar styling for code blocks */
+.highlight pre::-webkit-scrollbar {
+  height: 8px;
+}
+
+.highlight pre::-webkit-scrollbar-track {
+  background: #1a202c;
+  border-radius: 4px;
+}
+
+.highlight pre::-webkit-scrollbar-thumb {
+  background: #4a5568;
+  border-radius: 4px;
+}
+
+.highlight pre::-webkit-scrollbar-thumb:hover {
+  background: #718096;
+}
+
+/* Language-specific styling */
+.highlight[data-lang="python"]::before { content: "Python"; }
+.highlight[data-lang="javascript"]::before { content: "JavaScript"; }
+.highlight[data-lang="js"]::before { content: "JavaScript"; }
+.highlight[data-lang="bash"]::before { content: "Bash"; }
+.highlight[data-lang="shell"]::before { content: "Shell"; }
+.highlight[data-lang="json"]::before { content: "JSON"; }
+.highlight[data-lang="yaml"]::before { content: "YAML"; }
+.highlight[data-lang="yml"]::before { content: "YAML"; }
+.highlight[data-lang="markdown"]::before { content: "Markdown"; }
+.highlight[data-lang="md"]::before { content: "Markdown"; }
+.highlight[data-lang="html"]::before { content: "HTML"; }
+.highlight[data-lang="css"]::before { content: "CSS"; }
+
 /* Phrasing Style: H1, H2, H3, H4, H5, H6, P, A, UL, LI */
 
 h1 {
