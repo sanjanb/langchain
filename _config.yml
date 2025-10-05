@@ -146,7 +146,7 @@ kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     line_numbers: true
-    css_class: 'highlight'
+    css_class: "highlight"
     span:
       line_numbers: false
 
