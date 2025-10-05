@@ -589,6 +589,31 @@ hr {
 .about-section {
   margin: 32px 0;
   padding: 0 8px;
+  display: block;
+  clear: both;
+}
+
+.about-section p,
+.content .about-section p {
+  line-height: 1.7 !important;
+  margin: 16px 0 !important;
+  color: var(--primary-text-color) !important;
+  font-size: 16px !important;
+  display: block !important;
+}
+
+.about-section ul,
+.content .about-section ul {
+  margin: 16px 0 !important;
+  padding-left: 28px !important;
+  line-height: 1.6 !important;
+}
+
+.about-section li,
+.content .about-section li {
+  margin-bottom: 8px !important;
+  line-height: 1.6 !important;
+  color: var(--primary-text-color) !important;
 }
 
 .about-section h1 {
@@ -598,6 +623,7 @@ hr {
   margin-bottom: 24px;
   border-bottom: 2px solid var(--primary-border-color);
   padding-bottom: 12px;
+  margin-top: 32px !important;
 }
 
 .about-section h2 {
@@ -606,6 +632,7 @@ hr {
   font-size: 24px;
   margin: 32px 0 16px 0;
   font-weight: 600;
+  margin-top: 32px !important;
 }
 
 .about-section h3 {
@@ -614,24 +641,6 @@ hr {
   font-size: 18px;
   margin: 24px 0 12px 0;
   font-weight: 600;
-}
-
-.about-section p {
-  line-height: 1.7;
-  margin-bottom: 18px;
-  color: var(--primary-text-color);
-  font-size: 16px;
-}
-
-.about-section ul {
-  margin: 16px 0;
-  padding-left: 24px;
-}
-
-.about-section li {
-  margin-bottom: 8px;
-  line-height: 1.6;
-  color: var(--primary-text-color);
 }
 
 .about-section ol {
@@ -675,17 +684,40 @@ hr {
 /* Philosophy and notes sections */
 .philosophy-section,
 .technical-notes {
-  background: var(--secondary-bg-color);
-  padding: 24px;
-  border-radius: 8px;
-  margin: 32px 0;
-  border-left: 4px solid var(--anchor-text-color);
+  background: var(--secondary-bg-color) !important;
+  padding: 24px !important;
+  border-radius: 8px !important;
+  margin: 32px 0 !important;
+  border-left: 4px solid var(--anchor-text-color) !important;
+  display: block !important;
+  clear: both !important;
 }
 
 .philosophy-section h2,
 .technical-notes h2 {
-  margin-top: 0;
-  color: var(--primary-text-color);
+  margin-top: 0 !important;
+  color: var(--primary-text-color) !important;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+}
+
+.philosophy-section p,
+.technical-notes p {
+  line-height: 1.7 !important;
+  margin: 16px 0 !important;
+  color: var(--primary-text-color) !important;
+}
+
+.philosophy-section ol,
+.philosophy-section ul {
+  margin: 16px 0 !important;
+  padding-left: 28px !important;
+}
+
+.philosophy-section li {
+  margin-bottom: 12px !important;
+  line-height: 1.6 !important;
+  color: var(--primary-text-color) !important;
 }
 
 /* Call-to-action styling */
