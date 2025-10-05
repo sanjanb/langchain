@@ -5,20 +5,6 @@ permalink: /about/
 content-type: eg
 ---
 
-<style>
-.content p, p { margin: 20px 0 !important; line-height: 1.8 !important; display: block !important; font-size: 16px !important; }
-.content div, div { margin: 32px 0 !important; display: block !important; padding: 16px 0 !important; }
-.content h1, .content h2, .content h3 { margin: 32px 0 20px 0 !important; display: block !important; font-weight: 600 !important; }
-.content ul, .content ol { margin: 20px 0 !important; padding-left: 32px !important; display: block !important; }
-.content li { margin-bottom: 12px !important; line-height: 1.7 !important; display: list-item !important; }
-.philosophy-section { background: #f8f9fa !important; padding: 24px !important; margin: 32px 0 !important; border-left: 4px solid #0066cc !important; }
-.technical-notes { background: #f8f9fa !important; padding: 24px !important; margin: 32px 0 !important; border-left: 4px solid #0066cc !important; }
-.cta-section { background: #f0f0f0 !important; padding: 24px !important; margin: 32px 0 !important; border: 1px solid #ddd !important; text-align: center !important; }
-table { width: 100% !important; margin: 24px 0 !important; border-collapse: collapse !important; }
-th, td { padding: 12px 16px !important; border: 1px solid #ddd !important; }
-th { background: #f8f9fa !important; font-weight: 600 !important; }
-</style>
-
 <div class="about-section">
 
 I'm **Sanjan B M**—an engineer and writer interested in:
