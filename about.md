@@ -5,7 +5,9 @@ permalink: /about/
 content-type: eg
 ---
 
-I'm **Sanjan B M**—an engineer and writer interested in:
+<div class="about-section">
+
+I'm **Sanjan B M** an engineer and writer interested in:
 
 - Generative AI systems and practical application architecture
 - Abstractions: how representations, constraints, and correspondences shape design
@@ -13,9 +15,17 @@ I'm **Sanjan B M**—an engineer and writer interested in:
 
 I care about durable understanding: learning in a way that compounds across adjacent domains (retrieval systems, agents, evaluation, deployment, reasoning patterns) instead of chasing surface-level trends.
 
+</div>
+
+<div class="about-section">
+
 # About This Site
 
-This site is a focused learning hub for practitioners who want a structured, foundation-first path into Generative AI—especially building real applications with LangChain and modern LLM tooling. The goal is to help learners develop precise conceptual language, internalize core abstractions, and build production-minded systems step by step.
+This site is a focused learning hub for practitioners who want a structured, foundation-first path into Generative AI,especially building real applications with LangChain and modern LLM tooling. The goal is to help learners develop precise conceptual language, internalize core abstractions, and build production-minded systems step by step.
+
+</div>
+
+<div class="philosophy-section">
 
 ## Learning Philosophy
 
@@ -26,6 +36,10 @@ The curriculum deliberately emphasizes:
 3. **Naming things precisely** – Distinguishing prompts vs. prompt templates, retrievers vs. vector stores, tools vs. agents, runnables vs. chains.
 4. **Progressive generalization** – Start concrete (one model, one dataset), then abstract (multiple providers, interchangeable components).
 5. **Reusability and evaluation** – Treat every artifact (prompt, splitter, retriever, parser) as a testable unit.
+
+</div>
+
+<div class="about-section">
 
 ## What You Will Find Here
 
@@ -50,25 +64,41 @@ The curriculum deliberately emphasizes:
 2. Skim a lesson’s “Why this matters” section before diving into code examples.
 3. Build each mini‑project immediately after finishing its prerequisite lessons.
 4. Refactor earlier code once you learn later abstractions (e.g., replace ad‑hoc orchestration with runnables).
-5. Keep a personal glossary—precision accelerates mastery.
+5. Keep a personal glossary,precision accelerates mastery.
+
+</div>
+
+<div class="contact-links">
 
 ## Contact
 
-- Personal Site: https://sanjanb.github.io/
-- LinkedIn: https://www.linkedin.com/in/sanjan-bm/
-- GitHub: https://github.com/sanjanb
-- Email: (listed in site configuration)
+- **Personal Site**: [https://sanjanb.github.io/](https://sanjanb.github.io/)
+- **LinkedIn**: [https://www.linkedin.com/in/sanjan-bm/](https://www.linkedin.com/in/sanjan-bm/)
+- **GitHub**: [https://github.com/sanjanb](https://github.com/sanjanb)
+- **Email**: (listed in site configuration)
 
 If the material helps you, feel free to reach out with feedback, implementation questions, or collaboration ideas.
+
+</div>
+
+<div class="technical-notes">
 
 ## Technical Notes
 
 This site is statically generated with Jekyll. Content is written in Markdown with minimal dependencies. The emphasis is on clarity, stability, and longevity over visual noise.
 
+</div>
+
 ---
+
+<div class="cta-section">
+
+**Ready to start learning?**
 
 If you are beginning, start here: [/curriculum/](/curriculum/)
 
 If you prefer to build first, start here: [/projects/](/projects/)
 
 If you want to see how everything fits together, aim for the capstone after completing all lessons.
+
+</div>
