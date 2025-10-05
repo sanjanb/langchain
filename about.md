@@ -7,7 +7,7 @@ content-type: eg
 
 <div class="about-section">
 
-I'm **Sanjan B M** an engineer and writer interested in:
+I'm **Sanjan B M**—an engineer and writer interested in:
 
 - Generative AI systems and practical application architecture
 - Abstractions: how representations, constraints, and correspondences shape design
@@ -21,7 +21,7 @@ I care about durable understanding: learning in a way that compounds across adja
 
 # About This Site
 
-This site is a focused learning hub for practitioners who want a structured, foundation-first path into Generative AI,especially building real applications with LangChain and modern LLM tooling. The goal is to help learners develop precise conceptual language, internalize core abstractions, and build production-minded systems step by step.
+This site is a focused learning hub for practitioners who want a structured, foundation-first path into Generative AI—especially building real applications with LangChain and modern LLM tooling. The goal is to help learners develop precise conceptual language, internalize core abstractions, and build production-minded systems step by step.
 
 </div>
 
@@ -64,7 +64,7 @@ The curriculum deliberately emphasizes:
 2. Skim a lesson’s “Why this matters” section before diving into code examples.
 3. Build each mini‑project immediately after finishing its prerequisite lessons.
 4. Refactor earlier code once you learn later abstractions (e.g., replace ad‑hoc orchestration with runnables).
-5. Keep a personal glossary,precision accelerates mastery.
+5. Keep a personal glossary—precision accelerates mastery.
 
 </div>
 
