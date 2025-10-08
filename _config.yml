@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-baseurl: "/generative-ai-langchain" # the subpath of your site, e.g. /blog
+baseurl: "/langchain" # the subpath of your site, e.g. /blog
 url: "https://sanjanb.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # GitHub repository information (required for GitHub Pages)
-repository: sanjanb/generative-ai-langchain
+repository: sanjanb/langchain
 
 #######################################################################
 # Settings related to the Header and your About page go here,such as

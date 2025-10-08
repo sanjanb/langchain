@@ -28,7 +28,7 @@ install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
 end
 
 # Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
+# gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
 gem 'jekyll-sitemap'
 # Remove kramdown-math-katex for GitHub Pages compatibility
@@ -36,3 +36,6 @@ gem 'jekyll-sitemap'
 
 # Add faraday-retry to fix Faraday v2.0+ warning
 gem 'faraday-retry'
+
+# Add bigdecimal for Ruby 3.4 compatibility
+gem 'bigdecimal'
