@@ -5,47 +5,92 @@ permalink: /about/
 content-type: eg
 ---
 
+<div class="about-page">
+
+<div class="author-section">
+
 # About Sanjan B M
 
-I'm **Sanjan B M** an engineer and writer focused on making AI concepts practical and accessible.
+I'm **Sanjan B M**—an engineer and writer focused on making AI concepts practical and accessible.
 
-My areas of interest:
-
-- 🤖 Generative AI systems and application architecture
-- 📚 Learning frameworks that build durable understanding
-- 🔧 Clear abstractions over implementation complexity
+**Areas of Focus:**
+- Generative AI systems and application architecture
+- Learning frameworks that build durable understanding
+- Clear abstractions over implementation complexity
 
 I believe in learning that compounds across domains rather than chasing trends.
 
-> _"The best way to understand AI is to build with it."_
+> *"The best way to understand AI is to build with it."*
 
----
+</div>
 
-## About This Site
+<div class="course-overview">
+
+## About This Course
 
 This is a structured learning path for building real applications with **LangChain** and modern LLM tooling. The focus is on developing precise conceptual understanding and building production-ready systems step by step.
 
-> 💡 **Why this course exists:** Most AI tutorials teach you to copy-paste code. This course teaches you to _think_ in AI patterns and build systems that scale.
+<div class="highlight-box">
+<strong>Course Philosophy:</strong> Most AI tutorials teach you to copy-paste code. This course teaches you to <em>think</em> in AI patterns and build systems that scale.
+</div>
 
-### Learning Philosophy
+### Learning Principles
 
-- **Clarity over novelty** – Fewer concepts, deeply understood ✨
-- **Execution awareness** – Understanding how components actually work together 🔍
-- **Precise naming** – Distinguishing tools vs. agents, prompts vs. templates 🎯
-- **Progressive building** – Start concrete, then generalize 📈
-- **Testable components** – Every piece should be reusable and evaluable ✅
+<div class="principles-grid">
+<div class="principle">
+<h4>Clarity over novelty</h4>
+<p>Fewer concepts, deeply understood</p>
+</div>
 
----
+<div class="principle">
+<h4>Execution awareness</h4>
+<p>Understanding how components actually work together</p>
+</div>
 
-## What You'll Find
+<div class="principle">
+<h4>Precise naming</h4>
+<p>Distinguishing tools vs. agents, prompts vs. templates</p>
+</div>
 
-| 📚 **Curriculum** | Sequenced path from fundamentals → retrieval → agents |
-| 🛠️ **Projects** | Guided builds reinforcing core patterns |
-| 🏆 **Capstone** | Enterprise RAG system integrating all concepts |
+<div class="principle">
+<h4>Progressive building</h4>
+<p>Start concrete, then generalize</p>
+</div>
 
-> 🎯 **Learning outcome:** By the end, you'll think like an AI engineer, not just follow tutorials.
+<div class="principle">
+<h4>Testable components</h4>
+<p>Every piece should be reusable and evaluable</p>
+</div>
+</div>
 
-### Course Structure
+</div>
+
+<div class="curriculum-section">
+
+## Course Structure
+
+<div class="structure-grid">
+<div class="structure-item">
+<h3>Curriculum</h3>
+<p>Sequenced path from fundamentals → retrieval → agents</p>
+</div>
+
+<div class="structure-item">
+<h3>Projects</h3>
+<p>Guided builds reinforcing core patterns</p>
+</div>
+
+<div class="structure-item">
+<h3>Capstone</h3>
+<p>Enterprise RAG system integrating all concepts</p>
+</div>
+</div>
+
+<div class="learning-outcome">
+<strong>Learning Outcome:</strong> By the end, you'll think like an AI engineer, not just follow tutorials.
+</div>
+
+### Academic Structure
 
 **Part 1: Fundamentals**  
 Components, models, prompts, parsing, chains, memory
@@ -56,44 +101,120 @@ Loaders, embeddings, vector stores, end-to-end RAG systems
 **Part 3: Agents**  
 Tools, reasoning, structured workflows, autonomous systems
 
-**Projects**  
+**Applied Projects**  
 Chatbot → Summarizer → Knowledge Base → Assistant → Enterprise RAG
 
----
+</div>
 
-## How to Use This Site
+<div class="usage-guide">
 
-1. **Start with curriculum** if you want the complete path
-2. **Preview lessons** by reading "Why this matters" sections first
-3. **Build immediately** – complete projects after prerequisite lessons
-4. **Refactor later** – revisit code once you learn new abstractions
-5. **Keep notes** – maintain a personal glossary for precision
+## How to Use This Course
 
----
+<div class="usage-steps">
+<div class="step">
+<div class="step-number">1</div>
+<div class="step-content">
+<h4>Start with curriculum</h4>
+<p>Follow the complete path if you want comprehensive understanding</p>
+</div>
+</div>
 
-## Connect
+<div class="step">
+<div class="step-number">2</div>
+<div class="step-content">
+<h4>Preview lessons</h4>
+<p>Read "Why this matters" sections before diving into code</p>
+</div>
+</div>
 
-Let's build the future of AI together! 🚀
+<div class="step">
+<div class="step-number">3</div>
+<div class="step-content">
+<h4>Build immediately</h4>
+<p>Complete projects after prerequisite lessons</p>
+</div>
+</div>
 
-- **Website**: [sanjanb.github.io](https://sanjanb.github.io/)
-- **LinkedIn**: [linkedin.com/in/sanjan-bm](https://www.linkedin.com/in/sanjan-bm/)
-- **GitHub**: [github.com/sanjanb](https://github.com/sanjanb)
+<div class="step">
+<div class="step-number">4</div>
+<div class="step-content">
+<h4>Refactor later</h4>
+<p>Revisit code once you learn new abstractions</p>
+</div>
+</div>
+
+<div class="step">
+<div class="step-number">5</div>
+<div class="step-content">
+<h4>Keep notes</h4>
+<p>Maintain a personal glossary for precision</p>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="contact-section">
+
+## Connect & Collaborate
+
+Professional collaboration and learning discussions are welcome.
+
+<div class="contact-links">
+<a href="https://sanjanb.github.io/" class="contact-link">
+<div class="link-title">Website</div>
+<div class="link-url">sanjanb.github.io</div>
+</a>
+
+<a href="https://www.linkedin.com/in/sanjan-bm/" class="contact-link">
+<div class="link-title">LinkedIn</div>
+<div class="link-url">linkedin.com/in/sanjan-bm</div>
+</a>
+
+<a href="https://github.com/sanjanb" class="contact-link">
+<div class="link-title">GitHub</div>
+<div class="link-url">github.com/sanjanb</div>
+</a>
+</div>
 
 Questions, feedback, or collaboration ideas? Feel free to reach out.
 
----
+</div>
+
+<div class="technical-section">
 
 ## Technical Notes
 
-Built with Jekyll. Markdown content with minimal dependencies. Emphasis on clarity and stability over visual effects.
+This site is built with **Jekyll** and hosted on GitHub Pages. Content is written in Markdown with minimal dependencies, emphasizing clarity, stability, and longevity over visual complexity.
 
-_Philosophy: Clean, fast, accessible content that focuses on learning rather than distracting effects._---
+**Philosophy:** Clean, fast, accessible content that focuses on learning rather than distracting effects.
 
-**Ready to start?** 🎓
+</div>
 
-- [View Curriculum](/langchain/curriculum/) for the complete learning path
-- [Explore Projects](/langchain/projects/) to build hands-on
-- [See Capstone](/langchain/projects/capstone-enterprise-rag/) for the big picture
+<div class="cta-section">
+
+## Begin Your Learning Journey
+
+<div class="cta-links">
+<a href="/langchain/curriculum/" class="cta-primary">
+<div class="cta-title">View Curriculum</div>
+<div class="cta-desc">Complete learning path</div>
+</a>
+
+<a href="/langchain/projects/" class="cta-secondary">
+<div class="cta-title">Explore Projects</div>
+<div class="cta-desc">Hands-on building</div>
+</a>
+
+<a href="/langchain/projects/capstone-enterprise-rag/" class="cta-tertiary">
+<div class="cta-title">See Capstone</div>
+<div class="cta-desc">Big picture view</div>
+</a>
+</div>
+
+</div>
+
+</div>
 
 <style>
 /* Minimal styling for clean presentation */
