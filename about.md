@@ -5,19 +5,17 @@ permalink: /about/
 content-type: eg
 ---
 
-# About Sanjan B M
-
-I'm **Sanjan B M** an engineer and writer focused on making AI concepts practical and accessible.
+I'm **Sanjan B M**—an engineer and writer focused on making AI concepts practical and accessible.
 
 My areas of interest:
 
-- 🤖 Generative AI systems and application architecture
-- 📚 Learning frameworks that build durable understanding
-- 🔧 Clear abstractions over implementation complexity
+- Generative AI systems and application architecture
+- Learning frameworks that build durable understanding
+- Clear abstractions over implementation complexity
 
 I believe in learning that compounds across domains rather than chasing trends.
 
-> _"The best way to understand AI is to build with it."_
+> *"The best way to understand AI is to build with it."*
 
 ---
 
@@ -25,15 +23,15 @@ I believe in learning that compounds across domains rather than chasing trends.
 
 This is a structured learning path for building real applications with **LangChain** and modern LLM tooling. The focus is on developing precise conceptual understanding and building production-ready systems step by step.
 
-> 💡 **Why this course exists:** Most AI tutorials teach you to copy-paste code. This course teaches you to _think_ in AI patterns and build systems that scale.
+> **Why this course exists:** Most AI tutorials teach you to copy-paste code. This course teaches you to *think* in AI patterns and build systems that scale.
 
 ### Learning Philosophy
 
-- **Clarity over novelty** – Fewer concepts, deeply understood ✨
-- **Execution awareness** – Understanding how components actually work together 🔍
-- **Precise naming** – Distinguishing tools vs. agents, prompts vs. templates 🎯
-- **Progressive building** – Start concrete, then generalize 📈
-- **Testable components** – Every piece should be reusable and evaluable ✅
+- **Clarity over novelty** – Fewer concepts, deeply understood
+- **Execution awareness** – Understanding how components actually work together
+- **Precise naming** – Distinguishing tools vs. agents, prompts vs. templates
+- **Progressive building** – Start concrete, then generalize
+- **Testable components** – Every piece should be reusable and evaluable
 
 ---
 
