@@ -16,7 +16,8 @@ DEALINGS IN THE * SOFTWARE. * * File: Feed.html * Author@Raghuveer S * * This
 file contains the markup for the list of posts you see on the home page. * It is
 named feed.html because the structuring of the titles on the home page * looks
 like a social media feed. * * {%- endcomment -%} {%- if page.permalink == "/"
--%} {%- for item in site.posts -%}
+-%} {%- assign sorted_posts = site.posts | reverse -%} {%- for item in
+sorted_posts -%}
 <div
   class="feed-title-excerpt-block disable-select"
   data-url="{{site.url}}{{item.url | relative_url}}"
