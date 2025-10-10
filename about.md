@@ -15,7 +15,7 @@ My areas of interest:
 
 I believe in learning that compounds across domains rather than chasing trends.
 
-> *"The best way to understand AI is to build with it."*
+> _"The best way to understand AI is to build with it."_
 
 ---
 
@@ -23,7 +23,7 @@ I believe in learning that compounds across domains rather than chasing trends.
 
 This is a structured learning path for building real applications with **LangChain** and modern LLM tooling. The focus is on developing precise conceptual understanding and building production-ready systems step by step.
 
-> **Why this course exists:** Most AI tutorials teach you to copy-paste code. This course teaches you to *think* in AI patterns and build systems that scale.
+> **Why this course exists:** Most AI tutorials teach you to copy-paste code. This course teaches you to _think_ in AI patterns and build systems that scale.
 
 ### Learning Philosophy
 
@@ -37,11 +37,11 @@ This is a structured learning path for building real applications with **LangCha
 
 ## What You'll Find
 
-| 📚 **Curriculum** | Sequenced path from fundamentals → retrieval → agents |
-| 🛠️ **Projects** | Guided builds reinforcing core patterns |
-| 🏆 **Capstone** | Enterprise RAG system integrating all concepts |
+| **Curriculum** | Sequenced path from fundamentals → retrieval → agents |
+| **Projects** | Guided builds reinforcing core patterns |
+| **Capstone** | Enterprise RAG system integrating all concepts |
 
-> 🎯 **Learning outcome:** By the end, you'll think like an AI engineer, not just follow tutorials.
+> **Learning outcome:** By the end, you'll think like an AI engineer, not just follow tutorials.
 
 ### Course Structure
 
@@ -71,15 +71,13 @@ Chatbot → Summarizer → Knowledge Base → Assistant → Enterprise RAG
 
 ## Connect
 
-Let's build the future of AI together! 🚀
+Let's build the future of AI together.
 
 - **Website**: [sanjanb.github.io](https://sanjanb.github.io/)
-- **LinkedIn**: [linkedin.com/in/sanjan-bm](https://www.linkedin.com/in/sanjan-bm/)
+- **LinkedIn**: [linkedin.com/in/sanjan-bm](https://www.linkedin.com/in/sanjan-bm/)  
 - **GitHub**: [github.com/sanjanb](https://github.com/sanjanb)
 
-Questions, feedback, or collaboration ideas? Feel free to reach out.
-
----
+Questions, feedback, or collaboration ideas? Feel free to reach out.---
 
 ## Technical Notes
 
