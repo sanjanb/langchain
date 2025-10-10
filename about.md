@@ -76,7 +76,7 @@ Chatbot → Summarizer → Knowledge Base → Assistant → Enterprise RAG
 Let's build the future of AI together! 🚀
 
 - **Website**: [sanjanb.github.io](https://sanjanb.github.io/)
-- **LinkedIn**: [linkedin.com/in/sanjan-bm](https://www.linkedin.com/in/sanjan-bm/)  
+- **LinkedIn**: [linkedin.com/in/sanjan-bm](https://www.linkedin.com/in/sanjan-bm/)
 - **GitHub**: [github.com/sanjanb](https://github.com/sanjanb)
 
 Questions, feedback, or collaboration ideas? Feel free to reach out.
@@ -87,7 +87,7 @@ Questions, feedback, or collaboration ideas? Feel free to reach out.
 
 Built with Jekyll. Markdown content with minimal dependencies. Emphasis on clarity and stability over visual effects.
 
-*Philosophy: Clean, fast, accessible content that focuses on learning rather than distracting effects.*---
+_Philosophy: Clean, fast, accessible content that focuses on learning rather than distracting effects._---
 
 **Ready to start?** 🎓
 
@@ -101,10 +101,13 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
+    background: #fafafa;
+    border-radius: 6px;
+    overflow: hidden;
 }
 
 table td {
-    padding: 8px 12px;
+    padding: 12px 16px;
     border-bottom: 1px solid #eee;
     vertical-align: top;
 }
@@ -112,7 +115,8 @@ table td {
 table td:first-child {
     font-weight: 600;
     white-space: nowrap;
-    width: 120px;
+    width: 140px;
+    background: #f5f5f5;
 }
 
 hr {
@@ -126,40 +130,78 @@ ul {
 }
 
 li {
-    margin: 4px 0;
+    margin: 8px 0;
+    line-height: 1.6;
 }
 
 a {
     color: #0066cc;
     text-decoration: none;
+    transition: color 0.2s ease;
 }
 
 a:hover {
+    color: #0052a3;
     text-decoration: underline;
+}
+
+/* Engaging blockquotes */
+blockquote {
+    background: linear-gradient(135deg, #f8f9ff 0%, #e8f2ff 100%);
+    border-left: 4px solid #0066cc;
+    margin: 20px 0;
+    padding: 16px 20px;
+    border-radius: 0 6px 6px 0;
+    font-style: italic;
+    color: #444;
+}
+
+blockquote p {
+    margin: 0;
 }
 
 /* Clean link styling for bottom section */
 p > a {
     display: inline-block;
     margin: 5px 15px 5px 0;
-    padding: 8px 16px;
-    background: #f5f5f5;
-    border-radius: 4px;
+    padding: 10px 18px;
+    background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+    border-radius: 6px;
     text-decoration: none;
     font-size: 14px;
-    transition: background-color 0.2s;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    border: 1px solid #ddd;
 }
 
 p > a:hover {
-    background: #e5e5e5;
+    background: linear-gradient(135deg, #e5e5e5 0%, #d8d8d8 100%);
     text-decoration: none;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
+/* Subtle emoji spacing */
+li:has(emoji), td:has(emoji) {
+    line-height: 1.7;
+}
+
+/* Responsive design */
 @media (max-width: 600px) {
     p > a {
         display: block;
         margin: 8px 0;
         text-align: center;
+    }
+    
+    table td:first-child {
+        width: 120px;
+        font-size: 14px;
+    }
+    
+    blockquote {
+        margin: 15px 0;
+        padding: 12px 16px;
     }
 }
 </style>
