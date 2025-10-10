@@ -83,7 +83,7 @@ Questions, feedback, or collaboration ideas? Feel free to reach out.---
 
 Built with Jekyll. Markdown content with minimal dependencies. Emphasis on clarity and stability over visual effects.
 
-*Philosophy: Clean, fast, accessible content that focuses on learning rather than distracting effects.*
+_Philosophy: Clean, fast, accessible content that focuses on learning rather than distracting effects._
 
 ---
 
@@ -94,112 +94,224 @@ Built with Jekyll. Markdown content with minimal dependencies. Emphasis on clari
 - [See Capstone](/langchain/projects/capstone-enterprise-rag/) for the big picture
 
 <style>
-/* Minimal styling for clean presentation */
+/* Professional, sleek styling */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.7;
+    color: #2c3e50;
+}
+
+h1, h2, h3 {
+    color: #1a252f;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+}
+
+h1 {
+    font-size: 2.25rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+/* Sleek table design */
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: 20px 0;
-    background: #fafafa;
-    border-radius: 6px;
+    margin: 2rem 0;
+    background: #ffffff;
+    border-radius: 12px;
     overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e8ecf4;
 }
 
 table td {
-    padding: 12px 16px;
-    border-bottom: 1px solid #eee;
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid #f1f4f8;
     vertical-align: top;
+    transition: background-color 0.2s ease;
+}
+
+table tr:hover td {
+    background-color: #f8fafc;
 }
 
 table td:first-child {
     font-weight: 600;
     white-space: nowrap;
     width: 140px;
-    background: #f5f5f5;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-right: 1px solid #e8ecf4;
 }
 
+table tr:hover td:first-child {
+    background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
+}
+
+/* Clean horizontal rules */
 hr {
     border: none;
-    border-top: 1px solid #eee;
-    margin: 40px 0;
+    height: 2px;
+    background: linear-gradient(90deg, #3498db, #2ecc71);
+    margin: 3rem 0;
+    border-radius: 1px;
 }
 
+/* Professional lists */
 ul {
-    padding-left: 20px;
+    padding-left: 1.5rem;
 }
 
 li {
-    margin: 8px 0;
-    line-height: 1.6;
+    margin: 0.75rem 0;
+    line-height: 1.7;
+    position: relative;
 }
 
+li::marker {
+    color: #3498db;
+}
+
+/* Sophisticated links */
 a {
-    color: #0066cc;
+    color: #3498db;
     text-decoration: none;
-    transition: color 0.2s ease;
+    transition: all 0.2s ease;
+    font-weight: 500;
 }
 
 a:hover {
-    color: #0052a3;
+    color: #2980b9;
     text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
 }
 
-/* Engaging blockquotes */
+/* Elegant blockquotes */
 blockquote {
-    background: linear-gradient(135deg, #f8f9ff 0%, #e8f2ff 100%);
-    border-left: 4px solid #0066cc;
-    margin: 20px 0;
-    padding: 16px 20px;
-    border-radius: 0 6px 6px 0;
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    border-left: 4px solid #3498db;
+    margin: 2rem 0;
+    padding: 1.5rem 2rem;
+    border-radius: 0 8px 8px 0;
     font-style: italic;
-    color: #444;
+    color: #4a5568;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+blockquote::before {
+    content: '"';
+    position: absolute;
+    top: -5px;
+    left: 15px;
+    font-size: 3rem;
+    color: #3498db;
+    opacity: 0.3;
+    font-family: Georgia, serif;
 }
 
 blockquote p {
     margin: 0;
+    font-size: 1.1rem;
 }
 
-/* Clean link styling for bottom section */
+blockquote strong {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+/* Professional call-to-action buttons */
 p > a {
     display: inline-block;
-    margin: 5px 15px 5px 0;
-    padding: 10px 18px;
-    background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
-    border-radius: 6px;
+    margin: 0.5rem 1rem 0.5rem 0;
+    padding: 0.875rem 1.75rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 8px;
     text-decoration: none;
-    font-size: 14px;
-    font-weight: 500;
-    transition: all 0.2s ease;
-    border: 1px solid #ddd;
+    font-size: 0.925rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.25);
+    letter-spacing: 0.025em;
 }
 
 p > a:hover {
-    background: linear-gradient(135deg, #e5e5e5 0%, #d8d8d8 100%);
+    background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.35);
+    color: white;
     text-decoration: none;
-    transform: translateY(-1px);
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* Subtle emoji spacing */
-li:has(emoji), td:has(emoji) {
-    line-height: 1.7;
+/* Typography refinements */
+p {
+    margin: 1rem 0;
+    line-height: 1.8;
+}
+
+strong {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+em {
+    font-style: italic;
+    color: #4a5568;
 }
 
 /* Responsive design */
-@media (max-width: 600px) {
-    p > a {
-        display: block;
-        margin: 8px 0;
-        text-align: center;
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.875rem;
+    }
+    
+    table td {
+        padding: 1rem;
     }
     
     table td:first-child {
         width: 120px;
-        font-size: 14px;
+        font-size: 0.875rem;
     }
     
     blockquote {
-        margin: 15px 0;
-        padding: 12px 16px;
+        margin: 1.5rem 0;
+        padding: 1rem 1.5rem;
+    }
+    
+    p > a {
+        display: block;
+        margin: 0.75rem 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    table td:first-child {
+        width: 100px;
+        padding: 0.75rem;
+    }
+    
+    blockquote::before {
+        font-size: 2rem;
+        top: 0;
     }
 }
 </style>
