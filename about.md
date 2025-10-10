@@ -5,7 +5,7 @@ permalink: /about/
 content-type: eg
 ---
 
-I'm **Sanjan B M**—an engineer and writer focused on making AI concepts practical and accessible.
+I'm **Sanjan B M** an engineer and writer focused on making AI concepts practical and accessible.
 
 My areas of interest:
 
@@ -74,7 +74,7 @@ Chatbot → Summarizer → Knowledge Base → Assistant → Enterprise RAG
 Let's build the future of AI together.
 
 - **Website**: [sanjanb.github.io](https://sanjanb.github.io/)
-- **LinkedIn**: [linkedin.com/in/sanjan-bm](https://www.linkedin.com/in/sanjan-bm/)  
+- **LinkedIn**: [linkedin.com/in/sanjan-bm](https://www.linkedin.com/in/sanjan-bm/)
 - **GitHub**: [github.com/sanjanb](https://github.com/sanjanb)
 
 Questions, feedback, or collaboration ideas? Feel free to reach out.---
@@ -83,9 +83,11 @@ Questions, feedback, or collaboration ideas? Feel free to reach out.---
 
 Built with Jekyll. Markdown content with minimal dependencies. Emphasis on clarity and stability over visual effects.
 
-_Philosophy: Clean, fast, accessible content that focuses on learning rather than distracting effects._---
+*Philosophy: Clean, fast, accessible content that focuses on learning rather than distracting effects.*
 
-**Ready to start?** 🎓
+---
+
+**Ready to start?**
 
 - [View Curriculum](/langchain/curriculum/) for the complete learning path
 - [Explore Projects](/langchain/projects/) to build hands-on
