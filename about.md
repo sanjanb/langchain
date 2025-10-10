@@ -14,13 +14,14 @@ content-type: eg
 I'm **Sanjan B M**—an engineer and writer focused on making AI concepts practical and accessible.
 
 **Areas of Focus:**
+
 - Generative AI systems and application architecture
 - Learning frameworks that build durable understanding
 - Clear abstractions over implementation complexity
 
 I believe in learning that compounds across domains rather than chasing trends.
 
-> *"The best way to understand AI is to build with it."*
+> _"The best way to understand AI is to build with it."_
 
 </div>
 
@@ -217,112 +218,335 @@ This site is built with **Jekyll** and hosted on GitHub Pages. Content is writte
 </div>
 
 <style>
-/* Minimal styling for clean presentation */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    background: #fafafa;
-    border-radius: 6px;
-    overflow: hidden;
-}
-
-table td {
-    padding: 12px 16px;
-    border-bottom: 1px solid #eee;
-    vertical-align: top;
-}
-
-table td:first-child {
-    font-weight: 600;
-    white-space: nowrap;
-    width: 140px;
-    background: #f5f5f5;
-}
-
-hr {
-    border: none;
-    border-top: 1px solid #eee;
-    margin: 40px 0;
-}
-
-ul {
-    padding-left: 20px;
-}
-
-li {
-    margin: 8px 0;
+/* Professional About Page Styling */
+.about-page {
+    max-width: 800px;
+    margin: 0 auto;
     line-height: 1.6;
 }
 
-a {
-    color: #0066cc;
-    text-decoration: none;
-    transition: color 0.2s ease;
+/* Author Section */
+.author-section {
+    background: var(--secondary-bg-color);
+    padding: 32px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    border-left: 4px solid var(--anchor-text-color);
 }
 
-a:hover {
-    color: #0052a3;
-    text-decoration: underline;
+.author-section h1 {
+    margin-top: 0;
+    color: var(--primary-text-color);
 }
 
-/* Engaging blockquotes */
-blockquote {
-    background: linear-gradient(135deg, #f8f9ff 0%, #e8f2ff 100%);
-    border-left: 4px solid #0066cc;
+.author-section blockquote {
+    background: var(--primary-bg-color);
+    border-left: 3px solid var(--anchor-text-color);
     margin: 20px 0;
     padding: 16px 20px;
-    border-radius: 0 6px 6px 0;
+    border-radius: 0 4px 4px 0;
     font-style: italic;
-    color: #444;
+    color: var(--tertiary-text-color);
 }
 
-blockquote p {
+/* Course Overview */
+.course-overview {
+    margin-bottom: 40px;
+}
+
+.highlight-box {
+    background: var(--ternary-bg-color);
+    padding: 20px;
+    border-radius: 6px;
+    margin: 24px 0;
+    border-left: 4px solid var(--anchor-text-color);
+}
+
+/* Principles Grid */
+.principles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    margin: 24px 0;
+}
+
+.principle {
+    background: var(--primary-bg-color);
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid var(--secondary-border-color);
+    transition: box-shadow 0.2s ease;
+}
+
+.principle:hover {
+    box-shadow: 0 2px 8px var(--primary-box-shadow-color);
+}
+
+.principle h4 {
+    margin: 0 0 8px 0;
+    color: var(--primary-text-color);
+    font-size: 16px;
+}
+
+.principle p {
     margin: 0;
+    color: var(--secondary-text-color);
+    font-size: 14px;
 }
 
-/* Clean link styling for bottom section */
-p > a {
-    display: inline-block;
-    margin: 5px 15px 5px 0;
-    padding: 10px 18px;
-    background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+/* Structure Grid */
+.structure-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 24px;
+    margin: 24px 0;
+}
+
+.structure-item {
+    text-align: center;
+    padding: 24px;
+    background: var(--secondary-bg-color);
+    border-radius: 8px;
+    border: 1px solid var(--secondary-border-color);
+}
+
+.structure-item h3 {
+    margin: 0 0 12px 0;
+    color: var(--primary-text-color);
+    font-size: 18px;
+}
+
+.structure-item p {
+    margin: 0;
+    color: var(--secondary-text-color);
+    font-size: 14px;
+}
+
+.learning-outcome {
+    background: var(--ternary-bg-color);
+    padding: 16px 20px;
+    border-radius: 6px;
+    text-align: center;
+    margin: 24px 0;
+    color: var(--primary-text-color);
+    border-left: 4px solid var(--anchor-text-color);
+}
+
+/* Usage Steps */
+.usage-steps {
+    margin: 24px 0;
+}
+
+.step {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+    padding: 20px;
+    background: var(--primary-bg-color);
+    border-radius: 8px;
+    border: 1px solid var(--secondary-border-color);
+}
+
+.step-number {
+    width: 32px;
+    height: 32px;
+    background: var(--anchor-text-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.step-content h4 {
+    margin: 0 0 8px 0;
+    color: var(--primary-text-color);
+    font-size: 16px;
+}
+
+.step-content p {
+    margin: 0;
+    color: var(--secondary-text-color);
+    font-size: 14px;
+}
+
+/* Contact Section */
+.contact-section {
+    background: var(--secondary-bg-color);
+    padding: 32px;
+    border-radius: 8px;
+    margin: 40px 0;
+}
+
+.contact-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    margin: 24px 0;
+}
+
+.contact-link {
+    display: block;
+    padding: 16px;
+    background: var(--primary-bg-color);
+    border: 1px solid var(--secondary-border-color);
     border-radius: 6px;
     text-decoration: none;
-    font-size: 14px;
-    font-weight: 500;
+    color: inherit;
     transition: all 0.2s ease;
-    border: 1px solid #ddd;
 }
 
-p > a:hover {
-    background: linear-gradient(135deg, #e5e5e5 0%, #d8d8d8 100%);
+.contact-link:hover {
     text-decoration: none;
+    box-shadow: 0 2px 8px var(--primary-box-shadow-color);
     transform: translateY(-1px);
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* Subtle emoji spacing */
-li:has(emoji), td:has(emoji) {
-    line-height: 1.7;
+.link-title {
+    font-weight: 600;
+    color: var(--primary-text-color);
+    margin-bottom: 4px;
 }
 
-/* Responsive design */
-@media (max-width: 600px) {
-    p > a {
-        display: block;
-        margin: 8px 0;
+.link-url {
+    font-size: 14px;
+    color: var(--secondary-text-color);
+    font-family: monospace;
+}
+
+/* Technical Section */
+.technical-section {
+    background: var(--ternary-bg-color);
+    padding: 24px;
+    border-radius: 6px;
+    margin: 40px 0;
+}
+
+/* CTA Section */
+.cta-section {
+    text-align: center;
+    margin: 40px 0;
+    padding: 32px;
+    background: var(--secondary-bg-color);
+    border-radius: 8px;
+}
+
+.cta-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 24px 0;
+}
+
+.cta-primary,
+.cta-secondary,
+.cta-tertiary {
+    display: block;
+    padding: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    text-align: center;
+}
+
+.cta-primary {
+    background: var(--anchor-text-color);
+    color: white;
+}
+
+.cta-primary:hover {
+    background: var(--anchor-link-color);
+    color: white;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+
+.cta-secondary {
+    background: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    border: 2px solid var(--anchor-text-color);
+}
+
+.cta-secondary:hover {
+    background: var(--anchor-text-color);
+    color: white;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+
+.cta-tertiary {
+    background: var(--ternary-bg-color);
+    color: var(--primary-text-color);
+    border: 1px solid var(--secondary-border-color);
+}
+
+.cta-tertiary:hover {
+    background: var(--secondary-bg-color);
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+
+.cta-title {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.cta-desc {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-page {
+        margin: 0 16px;
+    }
+    
+    .author-section,
+    .contact-section,
+    .cta-section {
+        padding: 20px;
+    }
+    
+    .principles-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .structure-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-links {
+        grid-template-columns: 1fr;
+    }
+    
+    .cta-links {
+        grid-template-columns: 1fr;
+    }
+    
+    .step {
+        flex-direction: column;
         text-align: center;
     }
     
-    table td:first-child {
-        width: 120px;
-        font-size: 14px;
+    .step-number {
+        margin: 0 0 16px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .step {
+        padding: 16px;
     }
     
-    blockquote {
-        margin: 15px 0;
-        padding: 12px 16px;
+    .author-section,
+    .contact-section {
+        padding: 16px;
     }
 }
 </style>
