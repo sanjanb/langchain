@@ -6,3 +6,5 @@ _config_temp.yml
 vendor/
 .bundle/
 Gemfile.lock
+.venv/
+env/
