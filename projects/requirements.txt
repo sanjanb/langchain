@@ -1,0 +1,43 @@
+# Core LangChain packages
+langchain
+langchain-core
+langchain-openai
+langchain-community
+langchain-groq
+langchain-objectbox
+langchainhub
+langchain-text-splitters
+
+# Web frameworks
+fastapi
+streamlit
+uvicorn
+langserve
+sse_starlette
+
+# Document processing
+pypdf
+PyPDF2
+bs4
+beautifulsoup4
+
+# Vector databases
+chromadb
+faiss-cpu
+cassio
+
+# Machine learning
+sentence_transformers
+groq
+
+# Data sources
+wikipedia
+arxiv
+
+# Utilities
+python-dotenv
+pydantic
+ipykernel
+
+# Local model support
+ollama
